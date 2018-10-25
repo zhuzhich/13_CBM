@@ -78,8 +78,8 @@ class system_info():
 #1. initialization, START FROM HERE!!!.
 #######################################
 #init system parameter
-nComponents = 5;
-nStages = 2;
+nComponents = 2;
+nStages = 3;
 inspInterval = 10;
 cS = 20;				#setup cost
 cInsp = 1;
@@ -87,13 +87,13 @@ sysInfo = system_info(nComponents, nStages, inspInterval, cS, cInsp);
 
 #init component parameter
 #gamma distribution is assumed.
-nStates = 4;					#number of states for components, 0 - (m-1);
-gam_a =   	[1, 1, 1, 1, 1];
-gam_b =   	[5, 5, 5, 5, 5, 5];
-S = 		[60, 60, 60, 60, 60];	#failure threshold
-initState = [0, 0, 0, 0, 0];
-cCM = [20, 20, 20, 20, 20];
-cPM = [5, 5, 5, 5, 5];
+nStates = 3;					#number of states for components, 0 - (m-1);
+gam_a =   	[1]*nComponents;
+gam_b =   	[5]*nComponents;
+S = 		[60]*nComponents;	#failure threshold
+initState = [1, 2];
+cCM = [20]*nComponents;
+cPM = [5]*nComponents;
 
 for i in range(nComponents):
 	comInfo = component_info(i, gam_a[i], gam_b[i], nStates,\
@@ -121,15 +121,14 @@ for w in range(len(omega)):
 	z = 0;
 	lastStageXw = [];
 	lastStageYw = [];
-	lastStageZw = [];	
 	for i in range(sysInfo.nComponents):
 		y = 0;
-		lastStageYw.append(y);
 		if scenState[i] == nStates - 1:
 			y = 1;
 			z = 1;
 		x = y;
 		lastStageXw.append(x);
+		lastStageYw.append(y);
 		tmpObj = tmpObj + sysInfo.comInfoAll[i].cPM * x + \
 				(sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM) * y;
 	tmpObj = tmpObj + sysInfo.cS * z;
@@ -173,7 +172,7 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 		solutionZScen = 0;		
 		
 		solutionSpace = [];
-		childNodesObj = objValues[nStages-2];
+		childNodesObj = objValues[-1];
 
 		#get solution space:
 		for i in itertools.product([0, 1], repeat = sysInfo.nComponents):
@@ -198,33 +197,41 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 					if (solIX == 0) and (comIFrom == sysInfo.comInfoAll[j].nStates - 1):
 						infeasibile = True;
 						break;
-					prob = sysInfo.comInfoAll[j].transProb(comIFrom, comITo, sysInfo.inspItvl);
-					objTmp1 = objTmp1 * prob;
+					prob1 = sysInfo.comInfoAll[j].transProb(comIFrom, comITo, sysInfo.inspItvl);
+					prob2 = sysInfo.comInfoAll[j].transProb(0, comITo, sysInfo.inspItvl);
+					objTmp1 = objTmp1 * (prob1 * (1 - solIX) + prob2 * solIX);
+					if objTmp1 == 0:
+						break;
 				if infeasibile == True:
 					break;
 				objTmp = objTmp + objTmp1*childNodesObj[w2];			
 			if infeasibile == True:
 				objTmp = float("inf");	
+
+			#add first stage
+			solutionZScenTmp = 0;
+			solutionYScenTmp = [];
+			for ii in range(sysInfo.nComponents):
+				objTmp = objTmp + sysInfo.comInfoAll[ii].cPM * soluitonSpaceI[ii];
+				if soluitonSpaceI[ii] == 1:
+					solutionZScenTmp = 1;
+				if comStatesFrom[ii] == sysInfo.comInfoAll[ii].nStates - 1:
+					solutionYScenTmp.append(1);
+					objTmp = objTmp + sysInfo.comInfoAll[ii].cCM - sysInfo.comInfoAll[ii].cPM;
+				else:
+					solutionYScenTmp.append(0);
+			objTmp = objTmp + solutionZScenTmp * sysInfo.cS;
+				
 			if objTmp < objValuesScen:
 				objValuesScen = objTmp;
 				solutionXScen = soluitonSpaceI;
-		
-		#find the optimal obj value
-		for i in range(sysInfo.nComponents):
-			objValuesScen = objValuesScen + sysInfo.comInfoAll[i].cPM * solutionXScen[i];
-			if solutionXScen[i] == 1:
-				solutionZScen = 1;
-			if comStatesFrom[i] == sysInfo.comInfoAll[i].nStates - 1:
-				solutionYScen.append(1);
-				objValuesScen = objValuesScen + sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM;
-			else:
-				solutionYScen.append(0);
-		objValuesScen = objValuesScen + solutionZScen * sysInfo.cS;
-		
-		objValuesStage = objValuesScen;
-		solutionXStage = solutionXScen;
-		solutionYStage = solutionYScen;
-		solutionZStage = solutionZScen;
+				solutionZScen = solutionZScenTmp;
+				solutionYScen = solutionYScenTmp;				
+				
+		objValuesStage.append(objValuesScen);
+		solutionXStage.append(solutionXScen);
+		solutionYStage.append(solutionYScen);
+		solutionZStage.append(solutionZScen);
 		if breakW1 == True:
 			break;
 	########for stages
@@ -241,6 +248,31 @@ end_time = time.clock();
 
 time_elapsed = end_time - start_time;
 
-		
-		
+
+f = open("log2.txt", "w");
+old = sys.stdout;
+sys.stdout = f;
+
+print ("\n===============================main_2stage_enumeration, (m, n, t)=(%d,%d,%d)============" 
+		%(nStates, sysInfo.nComponents, nStages));
+
+print ("calculation time is %f"  %time_elapsed);
+
+for stageIdx in range(nStages):
+	curStage = nStages - stageIdx - 1;
+	for w1 in range(len(objValues[stageIdx])):
+		print ("=======(stage, scen) = (%d, %d)========" %(curStage,w1));
+		print ("objValues:");
+		print (objValues[stageIdx][w1]);
+		print ("solutionX:");
+		print (solutionX[stageIdx][w1]);
+		print ("solutionY:");
+		print (solutionY[stageIdx][w1]);
+		print ("solutionZ:");
+		print (solutionZ[stageIdx][w1]);
+		print ("===================\n");
+
+## 4. end of file 
+sys.stdout = old;
+f.close();				
 		

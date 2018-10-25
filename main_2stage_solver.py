@@ -78,9 +78,10 @@ class system_info():
 #######################################
 #1. initialization, START FROM HERE!!!.
 #######################################
+
 #init system parameter
-nComponents = 5;
-nStages = 2;
+nComponents = 2;
+nStages = 3;
 inspInterval = 10;
 cS = 20;				#setup cost
 cInsp = 1;
@@ -88,13 +89,13 @@ sysInfo = system_info(nComponents, nStages, inspInterval, cS, cInsp);
 
 #init component parameter
 #gamma distribution is assumed.
-nStates = 4;					#number of states for components, 0 - (m-1);
-gam_a =   	[1, 1, 1, 1, 1];
-gam_b =   	[5, 5, 5, 5, 5, 5];
-S = 		[60, 60, 60, 60, 60];	#failure threshold
-initState = [0, 0, 0, 0, 0];
-cCM = [20, 20, 20, 20, 20];
-cPM = [5, 5, 5, 5, 5];
+nStates = 3;					#number of states for components, 0 - (m-1);
+gam_a =   	[1]*nComponents;
+gam_b =   	[5]*nComponents;
+S = 		[60]*nComponents;	#failure threshold
+initState = [2, 2];
+cCM = [20]*nComponents;
+cPM = [5]*nComponents;
 
 for i in range(nComponents):
 	comInfo = component_info(i, gam_a[i], gam_b[i], nStates,\
@@ -122,15 +123,14 @@ for w in range(len(omega)):
 	z = 0;
 	lastStageXw = [];
 	lastStageYw = [];
-	lastStageZw = [];	
 	for i in range(sysInfo.nComponents):
 		y = 0;
-		lastStageYw.append(y);
 		if scenState[i] == nStates - 1:
 			y = 1;
 			z = 1;
 		x = y;
 		lastStageXw.append(x);
+		lastStageYw.append(y);
 		tmpObj = tmpObj + sysInfo.comInfoAll[i].cPM * x + \
 				(sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM) * y;
 	tmpObj = tmpObj + sysInfo.cS * z;
@@ -149,6 +149,8 @@ solutionY.append(lastStageY);
 solutionZ.append(lastStageZ);
 
 
+
+
 #2.2 start from nStages - 1 (nStages-2 in python), calculate the obj value of two stage problem.
 for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 	#for each stage, we have m**n unrepeated nodes.
@@ -159,6 +161,8 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 	
 	for w1 in range(len(omega)):		#equivalent to first stage. 
 		cpx = cplex.Cplex();	
+		cpx.objective.set_sense(cpx.objective.sense.minimize);
+
 		breakW1 = False;
 
 		if stageIdx > 0:
@@ -192,23 +196,26 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 				aiw.append(sysInfo.comInfoAll[i].transProb(0, comITo, sysInfo.inspItvl) - tmp);
 			coeA.append(aiw);
 			coeB.append(biw);
-		
+		#if stageIdx == 1 and w1 == 0:
+		#	print ("!!!!coeB = " + str(coeB));
+			
 		#get coefficient of X
 		coeX = [];		
-		childNodesObj = objValues[nStages-2];
+		childNodesObj = objValues[-1];
 		for i in range(sysInfo.nComponents):
 			tmpi = 0;
 			for w2 in range(len(omega)):
-				tmpr = 1;
+				tmpr = coeA[i][w2];
 				for r in range(sysInfo.nComponents):
 					if r != i:
 						tmpr = tmpr * coeB[r][w2];
-				tmpi = tmpi + childNodesObj[w2]*coeA[i][w2]*tmpr;
-			tmpi = tmpi * sysInfo.comInfoAll[i].cPM;
+				tmpi = tmpi + childNodesObj[w2]*tmpr;
+			tmpi = tmpi + sysInfo.comInfoAll[i].cPM;
 			coeX.append(tmpi);
 			
 		#get coefficient of u
 		coeU = [];
+		childNodesObj = objValues[-1];
 		if len(setS) > 0:
 			for j in range(len(setS)):
 				setSj = setS[j];
@@ -217,7 +224,9 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 					setSjk = setSj[k];
 					tmpk = 0;
 					for w2 in range(len(omega)):
-						tmpw = 1;
+						tmpw = childNodesObj[w2];
+						if tmpw == 0:
+							continue;
 						for i in range(sysInfo.nComponents):
 							if i in setSjk:
 								tmpw = tmpw * coeA[i][w2];
@@ -230,10 +239,12 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 		#constant term
 		consTerm = 0;
 		for w2 in range(len(omega)):
-			tmp1 = childNodesObj[w2];
+			tmp1 = 1;
 			for i in range(sysInfo.nComponents):
 				tmp1 = tmp1*coeB[i][w2];
-			consTerm = consTerm + tmp1;
+			#if stageIdx == 1 and w1 == 0:
+				#print ("!!!!tmp1 = " + str(tmp1));
+			consTerm = consTerm + tmp1 * childNodesObj[w2];
 		
 		#decision variables:
 		#x
@@ -276,15 +287,14 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 		#constraints:
 		#original constraints:
 		#1
-		coefTmp = [1]*len(varNameX);
-		coefTmp.append(-1);
-		nameVec = varNameX;
-		nameVec.append(varNameZ);
-		cpx.linear_constraints.add(
-			lin_expr=[cplex.SparsePair(nameVec, coefTmp)],
-			senses=["L"], 
-			range_values=[0.0],
-			rhs=[0]);
+		for i in range(sysInfo.nComponents):
+			cpx.linear_constraints.add(
+				lin_expr=[cplex.SparsePair([varNameX[i], varNameZ], [1, -1])],
+				senses=["L"], 
+				range_values=[0.0],
+				rhs=[0]);			
+
+
 			
 		#2
 		for i in range(sysInfo.nComponents):
@@ -293,7 +303,7 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 				lin_expr=[cplex.SparsePair([varNameY[i]],[-comIFrom])],
 				senses=["L"], 
 				range_values=[0.0],
-				rhs=[sysInfo.comInfoAll[i].nStates-1-comIFrom]);
+				rhs=[sysInfo.comInfoAll[i].nStates-2-comIFrom]);
 			cpx.linear_constraints.add(
 				lin_expr=[cplex.SparsePair([varNameY[i], varNameX[i]],[1, -1])],
 				senses=["L"], 
@@ -333,17 +343,17 @@ for stageIdx in range(nStages-2 , -1, -1):	#nStages-2 , nStages-3, ..., 1, 0
 
 		#get X
 		minTmp = varX[0];
-		maxTmp = varX[-1];
+		maxTmp = varX[-1] + 1;
 		solutionXStage.append(solutionAll[minTmp:maxTmp]);
 		
 		#get Y
 		minTmp = varY[0];
-		maxTmp = varY[-1];
+		maxTmp = varY[-1] + 1;
 		solutionYStage.append(solutionAll[minTmp:maxTmp]);
 		
 		#get Z
 		minTmp = varZ[0];
-		maxTmp = varZ[-1];
+		maxTmp = varZ[-1] + 1;
 		solutionZStage.append(solutionAll[minTmp:maxTmp]);
 		if breakW1 == True:
 			break;
@@ -361,6 +371,43 @@ end_time = time.clock();
 
 time_elapsed = end_time - start_time;
 
-		
+
+f = open("log1.txt", "w");
+old = sys.stdout;
+sys.stdout = f;
+
+print ("\n===============================main_2stage_solver, (m, n, t)=(%d,%d,%d)============" 
+		%(nStates, sysInfo.nComponents, nStages));
+
+print ("calculation time is %f"  %time_elapsed);
+
+for stageIdx in range(nStages):
+	curStage = nStages - stageIdx - 1;
+	for w1 in range(len(objValues[stageIdx])):
+		print ("=======(stage, scen) = (%d, %d)========" %(curStage,w1));
+		print ("objValues:");
+		print (objValues[stageIdx][w1]);
+		print ("solutionX:");
+		print (solutionX[stageIdx][w1]);
+		print ("solutionY:");
+		print (solutionY[stageIdx][w1]);
+		print ("solutionZ:");
+		print (solutionZ[stageIdx][w1]);
+		print ("===================\n");
+'''
+print ("=======coeA======");
+print (coeA);
+print ("=======coeB======");
+print (coeB);
+print ("=======coeU======");
+print (coeU);
+print ("=======coeX======");
+print (coeX);
+print ("=======costTerm======");
+print (consTerm);
+'''
+## 4. end of file 
+sys.stdout = old;
+f.close();		
 		
 		
