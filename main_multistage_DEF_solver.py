@@ -111,7 +111,7 @@ nStates = 3;					#number of states for components, 0 - (m-1);
 gam_a =   	[1]*nComponents;
 gam_b =   	[5]*nComponents;
 S = 		[60]*nComponents;	#failure threshold
-initState = [2, 2];
+initState = [2,1];
 cCM = [20]*nComponents;
 cPM = [5]*nComponents;
 
@@ -173,67 +173,56 @@ cpx.objective.set_sense(cpx.objective.sense.minimize);
 #2.2 add decision variables
 
 #add X
-varNameX = [];
 varX = [];
 dictX = {};
-count = 0;
 for stageIdx in range(nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates ** (stageIdx * sysInfo.nComponents);
 	for node in range(nodeNum):		#nodes in current stage
 		for i in range(sysInfo.nComponents):
 			scripts = str(i) + str(stageIdx) + str(node);
-			dictX[scripts] = count;
-			count += 1;
-			varNameX.append("x"+scripts);
+			nameTmp = "x"+scripts;
+			dictX[scripts] = nameTmp;
 			varX.append(cpx.variables.get_num());
 			objCoe = 0;		
 			if stageIdx == 0:
 				objCoe = sysInfo.comInfoAll[i].cPM;			
-			cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[varNameX[-1]]);
+			cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[nameTmp]);
 		
 #add Y
-varNameY = [];
 varY = [];
 dictY = {};
-count = 0;
 for stageIdx in range(nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates ** (stageIdx * sysInfo.nComponents);
 	for node in range(nodeNum):		#nodes in current stage
 		for i in range(sysInfo.nComponents):
 			scripts = str(i)+str(stageIdx)+str(node);
-			dictY[scripts] = count;
-			count += 1;
-			varNameY.append("y"+scripts);
+			nameTmp = "y" + scripts;
+			dictY[scripts] = nameTmp;
 			varY.append(cpx.variables.get_num());
 			objCoe = 0;		
 			if stageIdx == 0:
 				objCoe = sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM;					
-			cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[varNameY[-1]]);
+			cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[nameTmp]);
 							
 #add Z
-varNameZ = [];
 varZ = [];
 dictZ = {};
-count = 0;
 for stageIdx in range(nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates ** (stageIdx * sysInfo.nComponents);
 	for node in range(nodeNum):		#nodes in current stage
 		scripts = str(stageIdx) + str(node);
-		dictZ[scripts] = count;
-		count += 1;
-		varNameZ.append("z" + scripts);
+		nameTmp = "z" + scripts;
+		dictZ[scripts] = nameTmp;
 		varZ.append(cpx.variables.get_num());
 		objCoe = 0;
 		if stageIdx == 0: 
 			objCoe = sysInfo.cS;
-		cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[varNameZ[-1]]);	
+		cpx.variables.add(obj = [objCoe], lb = [0.0], ub=[1.0], types=["B"], names=[nameTmp]);	
 
 
 #add Theta
-varNameTheta = [];
 varTheta = [];
 dictTheta = {};
-count = 0;
 for stageIdx in range(1, nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates ** (stageIdx * sysInfo.nComponents);
 	for node in range(nodeNum):		#nodes in current stage
@@ -244,18 +233,15 @@ for stageIdx in range(1, nStages):
 				coeTmp = coeTmp * coeBInit[i][node];
 		#print ("ThetacoeTmp=" + str(coeTmp));
 		scripts = str(stageIdx) + str(node);
-		dictTheta[scripts] = count;
-		count += 1;
-		varNameTheta.append("th" + scripts);
+		nameTmp = "th" + scripts;
+		dictTheta[scripts] = nameTmp;
 		varTheta.append(cpx.variables.get_num());
-		cpx.variables.add(obj = [coeTmp], lb = [0.0], ub=[cplex.infinity], types=["C"], names=[varNameTheta[-1]])		
+		cpx.variables.add(obj = [coeTmp], lb = [0.0], ub=[cplex.infinity], types=["C"], names=[nameTmp])		
 
 		
 #add V
-varNameV = [];
 varV = [];
 dictV= {};
-count = 0;
 for stageIdx in range(nStages - 1):
 	nodeNum = sysInfo.comInfoAll[0].nStates ** (stageIdx * sysInfo.nComponents);
 	for curNode in range(nodeNum):
@@ -272,18 +258,15 @@ for stageIdx in range(nStages - 1):
 							coeTmp = coeTmp * coeBInit[r][chNode];
 				#print ("VcoeTmp=" + str(coeTmp));
 				scripts = str(i) + str(stageIdx) + str(curNode) + str(chNode);
-				dictV[scripts] = count;
-				count += 1;		
-				varNameV.append("v"+scripts);
+				nameTmp = "v" + scripts;
+				dictV[scripts] = nameTmp;
 				varV.append(cpx.variables.get_num());
 				#continuous variable
-				cpx.variables.add(obj = [coeTmp], lb = [0.0], ub=[cplex.infinity], types=["C"], names=[varNameV[-1]]);
+				cpx.variables.add(obj = [coeTmp], lb = [0.0], ub=[cplex.infinity], types=["C"], names=[nameTmp]);
 
 #add W
-varNameW = [];
 varW = [];
 dictW = {};
-count = 0;
 for stageIdx in range(nStages - 1):
 	nodeNum = sysInfo.comInfoAll[0].nStates**(stageIdx*sysInfo.nComponents);
 	for curNode in range(nodeNum):
@@ -305,18 +288,15 @@ for stageIdx in range(nStages - 1):
 								coeTmp = coeTmp*coeBInit[i][chNode];		
 					#print ("WcoeTmp=" + str(coeTmp));
 					scripts = str(j) + str(k) + str(stageIdx) + str(curNode) + str(chNode);
-					dictW[scripts] = count;
-					count += 1;	
-					varNameW.append("w" + scripts);
+					nameTmp = "w" + scripts;
+					dictW[scripts] = nameTmp;
 					varW.append(cpx.variables.get_num());
 					#continuous variable
-					cpx.variables.add(obj = [coeTmp], lb = [0.0],  ub=[cplex.infinity], types=["C"], names=[varNameW[-1]]);
+					cpx.variables.add(obj = [coeTmp], lb = [0.0],  ub=[cplex.infinity], types=["C"], names=[nameTmp]);
 
 #add U: auxilary variable that used in w
-varNameU = [];
 varU = [];
 dictU = {};
-count = 0;
 for stageIdx in range(nStages - 1):
 	nodeNum = sysInfo.comInfoAll[0].nStates**(stageIdx*sysInfo.nComponents);
 	for node in range(nodeNum):		#nodes in current stage
@@ -325,11 +305,10 @@ for stageIdx in range(nStages - 1):
 			setSj = setS[j-2];
 			for k in range(len(setSj)):
 				scripts = str(j) + str(k) + str(stageIdx) + str(node);
-				dictU[scripts] = count;
-				count += 1;	
-				varNameU.append("u" + scripts);
+				nameTmp = "u" + scripts;
+				dictU[scripts] = nameTmp;
 				varU.append(cpx.variables.get_num());
-				cpx.variables.add(obj = [0], lb = [0.0], ub=[1.0], types=["B"], names=[varNameU[-1]]);				
+				cpx.variables.add(obj = [0], lb = [0.0], ub=[1.0], types=["B"], names=[nameTmp]);				
 				
 				
 ## 2.2 add constraints
@@ -337,9 +316,9 @@ for stageIdx in range(nStages - 1):
 for stageIdx in range(nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates**(stageIdx*sysInfo.nComponents);	
 	for node in range(nodeNum):
-		coefNameZ = varNameZ[dictZ[str(stageIdx) + str(node)]];
+		coefNameZ = dictZ[str(stageIdx) + str(node)];
 		for i in range(sysInfo.nComponents):
-			coefNameX = varNameX[dictX[str(i) + str(stageIdx) + str(node)]];
+			coefNameX = dictX[str(i) + str(stageIdx) + str(node)];
 			cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([coefNameX, coefNameZ], [1, -1])], senses=["L"], range_values=[0.0], rhs=[0]);		
 
 # 2 & 3
@@ -359,13 +338,12 @@ for stageIdx in range(nStages):
 		for i in range(sysInfo.nComponents):
 			# 2
 			curStatesI = curStates[i];
-			coefNameY = varNameY[dictY[str(i) + str(stageIdx) + str(node)]];
+			coefNameY = dictY[str(i) + str(stageIdx) + str(node)];
 			coefValueY = curStatesI;
 			cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([coefNameY],[-coefValueY])], senses=["L"], range_values=[0.0], rhs=[sysInfo.comInfoAll[i].nStates-2-curStatesI]);
 			# 3
 			nameIdxScriptX = str(i) + str(stageIdx) + str(node);
-			nameIdxX = dictX[nameIdxScriptX];
-			coefNameX = varNameX[nameIdxX];
+			coefNameX = dictX[nameIdxScriptX];
 			coefValueX = -1;
 			coefValueY = 1;		#value changed here for 3rd constraint
 			cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([coefNameY, coefNameX],[coefValueY, coefValueX])], senses=["L"], range_values=[0.0], rhs=[0.0]);
@@ -378,20 +356,20 @@ for stageIdx in range(1, nStages - 1):
 		# do the first part
 		coefNameVec = [];
 		coefValueVec = [];
-		nameTmp = varNameTheta[dictTheta[str(stageIdx) + str(node)]];
+		nameTmp = dictTheta[str(stageIdx) + str(node)];
 		coefNameVec.append(nameTmp);
 		coefValueVec.append(-1);
 		for i in range(sysInfo.nComponents):
 			#add x
-			nameTmp = varNameX[dictX[str(i) +str(stageIdx) + str(node)]];
+			nameTmp = dictX[str(i) +str(stageIdx) + str(node)];
 			coefNameVec.append(nameTmp);
 			coefValueVec.append(sysInfo.comInfoAll[i].cPM);
 			#add y
-			nameTmp = varNameY[dictY[str(i) +str(stageIdx) + str(node)]];
+			nameTmp = dictY[str(i) +str(stageIdx) + str(node)];
 			coefNameVec.append(nameTmp);
 			coefValueVec.append(sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM);
 		#add z
-		nameTmp = varNameZ[dictZ[str(stageIdx) + str(node)]];
+		nameTmp = dictZ[str(stageIdx) + str(node)];
 		coefNameVec.append(nameTmp);
 		coefValueVec.append(sysInfo.cS);
 		#do the second part
@@ -399,7 +377,7 @@ for stageIdx in range(1, nStages - 1):
 		for chNode in childNodes:
 			#within the second part...
 			#part 1
-			nameTmp = varNameTheta[dictTheta[str(stageIdx+1) + str(chNode)]];
+			nameTmp = dictTheta[str(stageIdx+1) + str(chNode)];
 			stateFromIdx = node_2_outcome(node, sysInfo);
 			stateFrom = omega[stateFromIdx];
 			stateToIdx = node_2_outcome(chNode, sysInfo);
@@ -414,7 +392,7 @@ for stageIdx in range(1, nStages - 1):
 			#print (valueTmp);
 			#part 2
 			for i in range(sysInfo.nComponents):
-				nameTmp = varNameV[dictV[str(i) + str(stageIdx) + str(node) + str(chNode)]];		
+				nameTmp = dictV[str(i) + str(stageIdx) + str(node) + str(chNode)];		
 				valueTmp = coeA[stateFromIdx][i][stateToIdx];
 				for r in range(sysInfo.nComponents):
 					if r != i:
@@ -427,7 +405,7 @@ for stageIdx in range(1, nStages - 1):
 			for j in range(2, sysInfo.nComponents + 1):
 				setSj = setS[j - 2];				#setS starts from 2
 				for k in range(len(setSj)):
-					nameTmp = varNameW[dictW[str(j) + str(k)  + str(stageIdx) + str(node) + str(chNode)]];
+					nameTmp = dictW[str(j) + str(k)  + str(stageIdx) + str(node) + str(chNode)];
 					valueTmp = 1;
 					setSjk = setSj[k];
 					for i in range(sysInfo.nComponents):
@@ -449,20 +427,20 @@ nodeNum = sysInfo.comInfoAll[0].nStates**(stageIdx*sysInfo.nComponents);
 for node in range(nodeNum):
 	coefNameVec = [];
 	coefValueVec = [];
-	nameTmp = varNameTheta[dictTheta[str(stageIdx) + str(node)]];
+	nameTmp = dictTheta[str(stageIdx) + str(node)];
 	coefNameVec.append(nameTmp);
 	coefValueVec.append(-1);
 	for i in range(sysInfo.nComponents):
 		#add x
-		nameTmp = varNameX[dictX[str(i) +str(stageIdx) + str(node)]];
+		nameTmp = dictX[str(i) +str(stageIdx) + str(node)];
 		coefNameVec.append(nameTmp);
 		coefValueVec.append(sysInfo.comInfoAll[i].cPM);
 		#add y
-		nameTmp = varNameY[dictY[str(i) +str(stageIdx) + str(node)]];
+		nameTmp = dictY[str(i) +str(stageIdx) + str(node)];
 		coefNameVec.append(nameTmp);
 		coefValueVec.append(sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM);
 	#add z
-	nameTmp = varNameZ[dictZ[str(stageIdx) + str(node)]];
+	nameTmp = dictZ[str(stageIdx) + str(node)];
 	coefNameVec.append(nameTmp);
 	coefValueVec.append(sysInfo.cS);
 	cpx.linear_constraints.add(lin_expr=[cplex.SparsePair(coefNameVec,coefValueVec)], senses=["E"], range_values=[0.0], rhs=[0.0]);
@@ -475,15 +453,15 @@ for stageIdx in range(0, nStages - 1):
 	for node in range(nodeNum):
 		childNodes = get_child_nodes(node, sysInfo);
 		for i in range(sysInfo.nComponents):
-			nameTmpX = varNameX[dictX[str(i) + str(stageIdx) + str(node)]];
+			nameTmpX = dictX[str(i) + str(stageIdx) + str(node)];
 			valueTmpX = -upperM;
 			for chNode in childNodes:
-				nameTmpV = varNameV[dictV[str(i) + str(stageIdx) + str(node) + str(chNode)]];
+				nameTmpV = dictV[str(i) + str(stageIdx) + str(node) + str(chNode)];
 				valueTmpV = 1;
 				# part 1
 				cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([nameTmpX, nameTmpV],[valueTmpX, valueTmpV])], senses=["L"], range_values=[0.0], rhs=[0.0]);
 				# part 2
-				nameTmpTheta = varNameTheta[dictTheta[str(stageIdx + 1) + str(chNode)]];
+				nameTmpTheta = dictTheta[str(stageIdx + 1) + str(chNode)];
 				valueTmpTheta = -1;
 				cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([nameTmpTheta, nameTmpV],[valueTmpTheta, valueTmpV])], senses=["L"], range_values=[0.0], rhs=[0.0]);
 				#part 3
@@ -500,14 +478,14 @@ for stageIdx in range(0, nStages - 1):
 			for j in range(2, sysInfo.nComponents + 1):
 				setSj = setS[j - 2];
 				for k in range(len(setSj)):
-					nameTmpW = varNameW[dictW[str(j) + str(k) + str(stageIdx) + str(node) + str(chNode)]];
+					nameTmpW = dictW[str(j) + str(k) + str(stageIdx) + str(node) + str(chNode)];
 					valueTmpW = 1;
-					nameTmpU = varNameU[dictU[str(j) + str(k) + str(stageIdx) + str(node)]];
+					nameTmpU = dictU[str(j) + str(k) + str(stageIdx) + str(node)];
 					valueTmpU = -upperM;
 					# part 1
 					cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([nameTmpW, nameTmpU],[valueTmpW, valueTmpU])], senses=["L"], range_values=[0.0], rhs=[0.0]);
 					# part 2
-					nameTmpTheta = varNameTheta[dictTheta[str(stageIdx + 1) + str(chNode)]];
+					nameTmpTheta = dictTheta[str(stageIdx + 1) + str(chNode)];
 					valueTmpTheta = -1;					
 					cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([nameTmpW, nameTmpTheta],[valueTmpW, valueTmpTheta])], senses=["L"], range_values=[0.0], rhs=[0.0]);
 					# part 3
@@ -523,14 +501,14 @@ for stageIdx in range(nStages - 1):
 			setSj = setS[j - 2];
 			for k in range(len(setSj)):	
 				setSjk = setSj[k];
-				nameTmpU = varNameU[dictU[str(j) + str(k) + str(stageIdx) + str(node)]];
+				nameTmpU = dictU[str(j) + str(k) + str(stageIdx) + str(node)];
 				valueTmpU = 1;	
 				namePart2 = [];
 				valuePart2 = [];
 				namePart2.append(nameTmpU);
 				valuePart2.append(valueTmpU);
 				for i in setSjk:
-					nameTmpX = varNameX[dictX[str(i) + str(stageIdx) + str(node)]];
+					nameTmpX = dictX[str(i) + str(stageIdx) + str(node)];
 					valueTmpX = -1;		
 					#part 1:
 					cpx.linear_constraints.add(lin_expr=[cplex.SparsePair([nameTmpU, nameTmpX],[valueTmpU, valueTmpX])], senses=["L"], range_values=[0.0], rhs=[0.0]);	
@@ -610,7 +588,13 @@ print ("calculation time is %f"  %time_elapsed);
 print ("objValues:");
 print (objValues);
 
-
+countX = 0;
+countY = 0;
+countZ = 0;
+countV = 0;
+countW = 0;
+countU = 0;
+countTheta = 0;
 for stageIdx in range(nStages):
 	nodeNum = sysInfo.comInfoAll[0].nStates**(stageIdx*sysInfo.nComponents);
 	for node in range(nodeNum):
@@ -618,13 +602,17 @@ for stageIdx in range(nStages):
 		#get X Y Z theta
 		solX = [];
 		solY = [];
-		solZ = solutionZ[dictZ[str(stageIdx) + str(node)]];
+		solZ = solutionZ[countZ];
+		countZ += 1;
 		solTheta = [];
 		if stageIdx != 0:
-			solTheta = solutionTheta[dictTheta[str(stageIdx) + str(node)]];
+			solTheta = solutionTheta[countTheta];
+			countTheta += 1;
 		for i in range(sysInfo.nComponents):
-			solX.append(solutionX[dictX[str(i) + str(stageIdx) + str(node)]]);
-			solY.append(solutionY[dictY[str(i) + str(stageIdx) + str(node)]]);
+			solX.append(solutionX[countX]);
+			countX += 1;
+			solY.append(solutionY[countY]);
+			countY += 1;
 		print ("solutionX:");
 		print (solX);
 		print ("solutionY:");
@@ -640,7 +628,8 @@ for stageIdx in range(nStages):
 		for j in range(2, sysInfo.nComponents + 1):
 			setSj = setS[j - 2];
 			for k in range(len(setSj)):
-				solU.append(solutionU[dictU[str(j) + str(k) + str(stageIdx) + str(node)]]);
+				solU.append(solutionU[countU]);
+				countU += 1;
 		print ("solutionU:");
 		print (solU);
 		#get v and w
@@ -651,14 +640,16 @@ for stageIdx in range(nStages):
 			#get V
 			solVTmp = [];			
 			for i in range(sysInfo.nComponents):
-				solVTmp.append(solutionV[dictV[str(i) + str(stageIdx) + str(node) + str(chNode)]]);
+				solVTmp.append(solutionV[countV]);
+				countV += 1;
 			solV.append(solVTmp);
 			#get W
 			solWTmp = [];
 			for j in range(2, sysInfo.nComponents + 1):
 				setSj = setS[j - 2];
 				for k in range(len(setSj)):
-					solWTmp.append(solutionW[dictW[str(j) + str(k) + str(stageIdx) + str(node) + str(chNode)]]);
+					solWTmp.append(solutionW[countW]);
+					countW += 1;
 			solW.append(solWTmp);
 		print ("solutionV:");
 		print (solV);	
