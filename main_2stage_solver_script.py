@@ -78,22 +78,38 @@ class system_info():
 #######################################
 #1. initialization, START FROM HERE!!!.
 #######################################
+#parameter to change
+nComponents = 2;
+nStates = 4;					#number of states for components, 0 - (m-1);
+initState_vec = \
+[[0,0],
+[0, 1],
+[0,2],
+[0,3],
+[1,1],
+[1,2],
+[1,3],
+[2,2],
+[2,3],
+[3,3]];
+num_vec = list(range(10));
+xxx = 9;
+initState = initState_vec[xxx];
+num_ = num_vec[xxx];
 
+nStages = 3;
+fileName = "log1_" + str(num_) + "_.txt";
 #init system parameter
-nComponents = 5;
-nStages = 4;
 inspInterval = 10;
-cS = 20;				#setup cost
+cS = 10;				#setup cost
 cInsp = 1;
 sysInfo = system_info(nComponents, nStages, inspInterval, cS, cInsp);
 
 #init component parameter
 #gamma distribution is assumed.
-nStates = 3;					#number of states for components, 0 - (m-1);
 gam_a =   	[1]*nComponents;
 gam_b =   	[5]*nComponents;
 S = 		[60]*nComponents;	#failure threshold
-initState = [2,1,0,0,1]
 cCM = [20]*nComponents;
 cPM = [5]*nComponents;
 
@@ -371,13 +387,14 @@ end_time = time.clock();
 
 time_elapsed = end_time - start_time;
 
-
-f = open("log1.txt", "w");
+f = open(fileName, "w");
 old = sys.stdout;
 sys.stdout = f;
 
 print ("\n===============================main_2stage_solver, (m, n, t)=(%d,%d,%d)============" 
 		%(nStates, sysInfo.nComponents, nStages));
+print ("\n===============================initial state============");
+print (initState);
 
 print ("calculation time is %f"  %time_elapsed);
 
@@ -394,20 +411,13 @@ for stageIdx in range(nStages):
 		print ("solutionZ:");
 		print (solutionZ[stageIdx][w1]);
 		print ("===================\n");
-'''
-print ("=======coeA======");
-print (coeA);
-print ("=======coeB======");
-print (coeB);
-print ("=======coeU======");
-print (coeU);
-print ("=======coeX======");
-print (coeX);
-print ("=======costTerm======");
-print (consTerm);
-'''
+
 ## 4. end of file 
 sys.stdout = old;
 f.close();		
-		
-		
+
+
+
+	
+
+	

@@ -1,0 +1,369 @@
+
+===============================main_2stage_solver, (m, n, t)=(4,2,3)============
+
+===============================initial state============
+[1, 2]
+calculation time is 0.490174
+=======(stage, scen) = (2, 0)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 1)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 2)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 3)========
+objValues:
+30
+solutionX:
+[0, 1]
+solutionY:
+[0, 1]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 4)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 5)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 6)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 7)========
+objValues:
+30
+solutionX:
+[0, 1]
+solutionY:
+[0, 1]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 8)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 9)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 10)========
+objValues:
+0
+solutionX:
+[0, 0]
+solutionY:
+[0, 0]
+solutionZ:
+0
+===================
+
+=======(stage, scen) = (2, 11)========
+objValues:
+30
+solutionX:
+[0, 1]
+solutionY:
+[0, 1]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 12)========
+objValues:
+30
+solutionX:
+[1, 0]
+solutionY:
+[1, 0]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 13)========
+objValues:
+30
+solutionX:
+[1, 0]
+solutionY:
+[1, 0]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 14)========
+objValues:
+30
+solutionX:
+[1, 0]
+solutionY:
+[1, 0]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (2, 15)========
+objValues:
+50
+solutionX:
+[1, 1]
+solutionY:
+[1, 1]
+solutionZ:
+1
+===================
+
+=======(stage, scen) = (1, 0)========
+objValues:
+13.955990099837711
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[0.0]
+===================
+
+=======(stage, scen) = (1, 1)========
+objValues:
+27.033451580142014
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[0.0]
+===================
+
+=======(stage, scen) = (1, 2)========
+objValues:
+28.955990099837713
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 3)========
+objValues:
+43.955990099837706
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 4)========
+objValues:
+27.033451580142017
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[0.0]
+===================
+
+=======(stage, scen) = (1, 5)========
+objValues:
+33.95599009983772
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 6)========
+objValues:
+33.95599009983771
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 7)========
+objValues:
+48.955990099837706
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 8)========
+objValues:
+28.955990099837713
+solutionX:
+[1.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 9)========
+objValues:
+33.95599009983772
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 10)========
+objValues:
+33.95599009983771
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 11)========
+objValues:
+48.95599009983772
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 12)========
+objValues:
+43.955990099837706
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 13)========
+objValues:
+48.955990099837706
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 14)========
+objValues:
+48.95599009983771
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (1, 15)========
+objValues:
+63.95599009983771
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+[1.0]
+===================
+
+=======(stage, scen) = (0, 0)========
+objValues:
+59.583370338788875
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+[0.0]
+===================
+

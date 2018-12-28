@@ -1,0 +1,905 @@
+
+===============================main_multi_DEF_solver, (m, n, t)=(3,2,3)============
+loading time is 0.087200
+calculation time is 0.053028
+objValues:
+99.35885536479044
+=======(stage, scen) = (0, 0)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+[]
+solutionU:
+[1.0]
+solutionV:
+[[18.216293732854894, 18.216293732854894], [41.89773303152473, 41.89773303152473], [58.21629373285489, 58.21629373285489], [41.89773303152444, 41.89773303152444], [48.21629373285488, 48.21629373285488], [63.21629373285489, 63.21629373285489], [58.21629373285492, 58.21629373285492], [63.216293732854915, 63.216293732854915], [78.21629373285492, 78.21629373285492]]
+solutionW:
+[[18.216293732854894], [41.89773303152473], [58.21629373285489], [41.89773303152444], [48.21629373285488], [63.21629373285489], [58.21629373285492], [63.216293732854915], [78.21629373285492]]
+===================
+
+=======(stage, scen) = (1, 0)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+18.216293732854894
+solutionU:
+[0.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
+solutionW:
+[[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+===================
+
+=======(stage, scen) = (1, 1)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+41.89773303152473
+solutionU:
+[0.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, -1.8047785488306545e-12]]
+solutionW:
+[[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+===================
+
+=======(stage, scen) = (1, 2)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+58.21629373285489
+solutionU:
+[0.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [0.0, 40.0], [0.0, 0.0], [0.0, 0.0], [0.0, 40.0], [0.0, 40.0], [0.0, 40.0], [0.0, 60.00000000000003]]
+solutionW:
+[[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+===================
+
+=======(stage, scen) = (1, 3)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+41.89773303152444
+solutionU:
+[0.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
+solutionW:
+[[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+===================
+
+=======(stage, scen) = (1, 4)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+48.21629373285488
+solutionU:
+[1.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [40.0, 40.0], [40.0, 40.0], [60.00000000000004, 60.00000000000004]]
+solutionW:
+[[0.0], [0.0], [40.0], [0.0], [0.0], [40.0], [40.0], [40.0], [60.00000000000004]]
+===================
+
+=======(stage, scen) = (1, 5)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+63.21629373285489
+solutionU:
+[1.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [40.0, 40.0], [40.0, 40.0], [60.00000000000004, 60.00000000000003]]
+solutionW:
+[[0.0], [0.0], [40.0], [0.0], [0.0], [40.0], [40.0], [40.0], [60.00000000000004]]
+===================
+
+=======(stage, scen) = (1, 6)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+58.21629373285492
+solutionU:
+[0.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [40.0, 0.0], [0.0, 0.0], [0.0, 0.0], [40.0, 0.0], [40.0, 0.0], [40.0, 0.0], [60.00000000000003, 0.0]]
+solutionW:
+[[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+===================
+
+=======(stage, scen) = (1, 7)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+63.216293732854915
+solutionU:
+[1.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [40.0, 40.0], [40.0, 40.0], [60.00000000000003, 60.000000000000014]]
+solutionW:
+[[0.0], [0.0], [40.0], [0.0], [0.0], [40.0], [40.0], [40.0], [60.00000000000004]]
+===================
+
+=======(stage, scen) = (1, 8)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+78.21629373285492
+solutionU:
+[1.0]
+solutionV:
+[[0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [0.0, 0.0], [0.0, 0.0], [40.0, 40.0], [40.0, 40.0], [40.0, 40.0], [60.00000000000003, 60.00000000000003]]
+solutionW:
+[[0.0], [0.0], [40.0], [0.0], [0.0], [40.0], [40.0], [40.0], [60.00000000000003]]
+===================
+
+=======(stage, scen) = (2, 0)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 1)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 2)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 3)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 4)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 5)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 6)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 7)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 8)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 9)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 10)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 11)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 12)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 13)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 14)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 15)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 16)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 17)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 18)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 19)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 20)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 21)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 22)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 23)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 24)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 25)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 26)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 27)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 28)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 29)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 30)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 31)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 32)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 33)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 34)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 35)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 36)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 37)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 38)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 39)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 40)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 41)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 42)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 43)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 44)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 45)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 46)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 47)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 48)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 49)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 50)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 51)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 52)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 53)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 54)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 55)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 56)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 57)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 58)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 59)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 60)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 61)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 62)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 63)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 64)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 65)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 66)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 67)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 68)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 69)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 70)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 71)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014
+=======(stage, scen) = (2, 72)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 73)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 74)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 75)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 76)========
+solutionX:
+[0.0, 0.0]
+solutionY:
+[0.0, 0.0]
+solutionZ:
+0.0
+solutionTheta:
+0.0
+=======(stage, scen) = (2, 77)========
+solutionX:
+[0.0, 1.0]
+solutionY:
+[0.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 78)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 79)========
+solutionX:
+[1.0, 0.0]
+solutionY:
+[1.0, 0.0]
+solutionZ:
+1.0
+solutionTheta:
+40.0
+=======(stage, scen) = (2, 80)========
+solutionX:
+[1.0, 1.0]
+solutionY:
+[1.0, 1.0]
+solutionZ:
+1.0
+solutionTheta:
+60.000000000000014

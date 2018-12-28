@@ -98,8 +98,8 @@ def node_2_outcome(node, sysInfo):
 start_time = time.clock();
 
 #init system parameter
-nComponents = 2;
-nStages = 3;
+nComponents = 4;
+nStages = 6;
 inspInterval = 10;
 cS = 20;				#setup cost
 cInsp = 1;
@@ -107,11 +107,11 @@ sysInfo = system_info(nComponents, nStages, inspInterval, cS, cInsp);
 
 #init component parameter
 #gamma distribution is assumed.
-nStates = 3;					#number of states for components, 0 - (m-1);
+nStates = 2;					#number of states for components, 0 - (m-1);
 gam_a =   	[1]*nComponents;
 gam_b =   	[5]*nComponents;
 S = 		[60]*nComponents;	#failure threshold
-initState = [2,1];
+initState = [1,0,1,0];
 cCM = [20]*nComponents;
 cPM = [5]*nComponents;
 

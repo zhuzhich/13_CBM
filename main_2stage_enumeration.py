@@ -78,8 +78,8 @@ class system_info():
 #1. initialization, START FROM HERE!!!.
 #######################################
 #init system parameter
-nComponents = 2;
-nStages = 3;
+nComponents = 5;
+nStages = 4;
 inspInterval = 10;
 cS = 20;				#setup cost
 cInsp = 1;
@@ -91,7 +91,7 @@ nStates = 3;					#number of states for components, 0 - (m-1);
 gam_a =   	[1]*nComponents;
 gam_b =   	[5]*nComponents;
 S = 		[60]*nComponents;	#failure threshold
-initState = [1, 2];
+initState = [2,1,0,0,1]
 cCM = [20]*nComponents;
 cPM = [5]*nComponents;
 
