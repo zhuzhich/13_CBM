@@ -21,7 +21,7 @@ def main(sysInfo):
 	start_time = time.clock();
 
 	setS = [];	#start from j = 2
-	for j in range(2, sysInfo.nComponents + 1):	#sysInfo.nComponents >=2;
+	for j in range(2, 2):	#sysInfo.nComponents >=2;
 		setSj = [];
 		for i in itertools.combinations(list(range(sysInfo.nComponents)), j):
 			setSj.append(list(i));
@@ -148,7 +148,7 @@ def main(sysInfo):
 			senses=["L"], 
 			range_values=[0.0],
 			rhs=[0.0]);
-
+	
 	#new constraints: for u
 	idxTmp = -1;
 	for j in range(len(setS)):
@@ -194,8 +194,8 @@ def main(sysInfo):
 	solutionZStage = solutionAll[minTmp:maxTmp];
 	
 	#get u
-	minTmp = varU[0];
-	maxTmp = varU[-1] + 1;
+#	minTmp = varU[0];
+#	maxTmp = varU[-1] + 1;
 	#solutionUStage = solutionAll[minTmp:maxTmp];
 
 	objValue = solution.get_objective_value() + consTerm;

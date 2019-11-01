@@ -1,0 +1,179 @@
+[1]
+[1, 1]
+[1, 1, 2, 1]
+[1, 1]
+[1]
+[1]
+[1]
+[1, 1, 2, 1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1, 1, 2]
+[1, 1, 2, 1]
+[1, 1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1, 1]
+[1, 1, 2, 1]
+[1]
+[1]
+[1]
+[1]
+[1, 1, 2, 1]
+[1]
+[1]
+[1, 1]
+[1, 1]
+[1]
+[1]
+[1]
+[1, 1, 2]
+[1]
+[1]
+[1, 1]
+[1]
+[1]
+[1]
+[1, 1]
+[1]
+[1, 1]
+[1]
+[1]
+[1]
+[1]
+[1, 1]
+[1, 1, 1]
+[1]
+[1]
+[1]
+[1, 1]
+[1, 1, 1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1, 1]
+[1, 1]
+[1, 1]
+[1]
+[1, 1]
+[1]
+[1]
+[1]
+[1, 1, 2, 3]
+[1, 1]
+[1, 1, 2]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1, 1, 1]
+[1]
+[1]
+[1]
+[1, 1, 2]
+[1]
+[1]
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+160 260
+Number of replicates:
+100
+number of components:
+16
+-------
+CPLEX:
+-------
+avg time
+832.6737
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+1.280381587297622e-08
+avg max j:
+1.11
+iterInfoMax
+{1: 90, 2: 9, 3: 1}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time, error%)
+0.0006 0.0
+heuristic all & error
+100 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 98
+j=2:(time, error%)
+0.0004 0.0
+heuristic all & error
+10 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 10
+j=3:(time, error%)
+0.0004 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+j=4:(time, error%)
+0.0004 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time, error%)
+0.0004 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time, error%)
+0.0004 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0

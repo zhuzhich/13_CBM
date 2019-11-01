@@ -177,8 +177,6 @@ def main(sysInfo):
 			for i in range(sysInfo.nComponents):
 				varNameY.append("y"+str(i));
 				varY.append(cpx.variables.get_num());
-				#print (varNameY[i]);
-				#print (sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM);
 				cpx.variables.add(obj = [sysInfo.comInfoAll[i].cCM - sysInfo.comInfoAll[i].cPM],
 								lb = [0.0], ub=[1.0], types=["B"],
 								names=[varNameY[i]]);		
@@ -293,18 +291,17 @@ def main(sysInfo):
 	#old = sys.stdout;
 	#sys.stdout = f;
 
-	#print ("\n===============================main_2stage_solver, (m, n, t)=(%d,%d,%d)============" 
-	#		%(sysInfo.comInfoAll[0].nStates, sysInfo.nComponents, sysInfo.nStages));
+	print ("\n===============================main_2stage_solver, (m, n, t)=(%d,%d,%d)============" 
+			%(sysInfo.comInfoAll[0].nStates, sysInfo.nComponents, sysInfo.nStages));
 
-	#print ("calculation time is %f"  %time_elapsed);
+	print ("calculation time is %f"  %time_elapsed);
 
 	#for stageIdx in range(1):
 	#	curStage = sysInfo.nStages - stageIdx - 1;
 		#for w1 in range(len(objValues[stageIdx])):
 	#print ("=======(stage, scen) = (%d, %d)========" %(curStage,w1));
-	#print ("objValues:");
-	#print (objValues[-1][0]);
-	sysInfo.objValue = objValues[-1][0];
+	print ("objValues:");
+	print (objValues[-1][0]);
 	#print ("solutionX:");
 	#print (solutionX[-1][0]);
 	#print ("solutionY:");
@@ -328,7 +325,7 @@ def main(sysInfo):
 	sysInfo.N1 = set(N1);
 	
 	
-	#print ("===================\n");
+	print ("===================\n");
 
 	#sys.stdout = old;
 	#f.close();		

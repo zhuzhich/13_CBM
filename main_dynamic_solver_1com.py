@@ -287,7 +287,7 @@ def main(sysInfo):
 	end_time = time.clock();
 
 	time_elapsed = end_time - start_time;
-	sysInfo.time = time_elapsed
+	sysInfo.time = time_elapsed;
 
 	#f = open("log1.txt", "w");
 	#old = sys.stdout;
@@ -297,20 +297,27 @@ def main(sysInfo):
 	#		%(sysInfo.comInfoAll[0].nStates, sysInfo.nComponents, sysInfo.nStages));
 
 	#print ("calculation time is %f"  %time_elapsed);
-
-	#for stageIdx in range(1):
-	#	curStage = sysInfo.nStages - stageIdx - 1;
-		#for w1 in range(len(objValues[stageIdx])):
-	#print ("=======(stage, scen) = (%d, %d)========" %(curStage,w1));
-	#print ("objValues:");
-	#print (objValues[-1][0]);
-	sysInfo.objValue = objValues[-1][0];
-	#print ("solutionX:");
-	#print (solutionX[-1][0]);
-	#print ("solutionY:");
-	#print (solutionY[-1][0]);
-	#print ("solutionZ:");
-	#print (solutionZ[-1][0]);
+	
+	print ("init state");
+	print (sysInfo.comInfoAll[0].initState);
+	for stageIdx in range(sysInfo.nStages):
+		curStage = sysInfo.nStages - stageIdx - 1;
+		for w1 in range(len(objValues[curStage])):
+			if solutionX[curStage][w1][0] == 1:
+				print ("=======(stage, scen) = (%d, %d)========" %(stageIdx,w1));
+				break;
+			#print ("component state");
+			#print (w1%sysInfo.comInfoAll[0].nStates);
+			
+			#print ("objValues:");
+			#print (objValues[-1][0]);
+			#sysInfo.objValue = objValues[-1][0];
+			#print ("solutionX:");
+			#print (solutionX[curStage][w1]);
+			#print ("solutionY:");
+			#print (solutionY[curStage][w1]);
+			#print ("solutionZ:");
+			#print (solutionZ[curStage][w1]);
 	N1 = [];
 	N0 = [];
 

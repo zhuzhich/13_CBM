@@ -1,0 +1,116 @@
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+170 180
+Number of replicates:
+10
+number of components:
+17
+-------
+CPLEX:
+-------
+avg time
+4624.9232
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+3.204319291924454e-09
+avg max j:
+1.0
+maximum time:
+0.0005508380454557482
+iterInfoMax
+{1: 10}
+max j:
+1
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0004 0.0005371526276576333 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=2:(time avg, time max, error%)
+-----
+0.0004 0.0005291694687912241 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=3:(time avg, time max, error%)
+-----
+0.0004 0.0005334461620805087 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0004 0.0005234672116785077 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0004 0.0005325908223312581 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0004 0.0005237523255345877 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+7 0.7
+[171, 172, 173, 175, 176, 177, 179]
+objective violation, rate and index:
+8 0.8
+[171, 172, 173, 175, 176, 177, 178, 179]

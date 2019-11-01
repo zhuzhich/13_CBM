@@ -1,0 +1,1930 @@
+[1, 1, 2]
+[1]
+[1, 1, 2, 3]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+59.640724533833605
+algorithm objValues:
+49.29423596038474
+time info(benchmark,algorithm, dif):
+48.7 0.0 48.7
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 4, 5, 7, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 7, 5, 4]
+N1=(Benchmark, algorithm)
+[1, 2, 3, 6]
+[1, 6, 3, 2, 0]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1, 1, 2]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+170.8724418937325
+algorithm objValues:
+152.97995794032582
+time info(benchmark,algorithm, dif):
+35.9 0.0 35.9
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 9, 7, 4, 2]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[0, 1, 3, 5, 11, 12, 10, 8, 6]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+94.34561469484598
+algorithm objValues:
+90.16071649005652
+time info(benchmark,algorithm, dif):
+38.5 0.0 38.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 5, 8, 9, 11, 12, 13]
+[13, 12, 11, 9, 8, 5, 1]
+N1=(Benchmark, algorithm)
+[2, 3, 4, 6, 7, 10]
+[2, 4, 10, 7, 3, 6, 0]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+72.9030611469117
+algorithm objValues:
+72.92048702139665
+time info(benchmark,algorithm, dif):
+38.9 0.0 38.9
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 2, 3, 5, 6, 7, 12, 13]
+[13, 12, 7, 6, 5, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[1, 4, 8, 9, 10, 11]
+[1, 10, 11, 9, 8, 4]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1, 1]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+52.83715643349738
+algorithm objValues:
+53.31834429784593
+time info(benchmark,algorithm, dif):
+48.5 0.0 48.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 7, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 5, 6]
+[5, 6, 0, 2]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+26.88317215071792
+algorithm objValues:
+25.869979846693212
+time info(benchmark,algorithm, dif):
+48.5 0.0 48.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 6, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 7]
+[0, 7, 2]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+90.3440217666436
+algorithm objValues:
+69.99755695561515
+time info(benchmark,algorithm, dif):
+51.8 0.0 51.8
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[2, 3, 5, 6, 7, 9, 10, 11, 12, 13]
+[12, 11, 10, 9, 7, 6, 5, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 1, 4, 8]
+[1, 4, 13, 8, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1]
+[1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+30.863077562836438
+algorithm objValues:
+30.86874288520174
+time info(benchmark,algorithm, dif):
+48.0 0.0 48.0
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 6, 5, 4, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[7]
+[7]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+37.82011969157643
+algorithm objValues:
+32.99122855252299
+time info(benchmark,algorithm, dif):
+48.5 0.0 48.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 5, 4, 3, 1, 6]
+N1=(Benchmark, algorithm)
+[0, 7]
+[7, 2, 0]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+26.57438981927159
+algorithm objValues:
+26.57706583453588
+time info(benchmark,algorithm, dif):
+48.4 0.0 48.4
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 6, 5, 4, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[3, 7]
+[3, 7]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1, 1]
+[1, 1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+93.40339314333109
+algorithm objValues:
+87.09760079706504
+time info(benchmark,algorithm, dif):
+39.5 0.0 39.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 7, 8, 10, 12]
+[12, 10, 8, 7, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[2, 6, 9, 11, 13]
+[2, 9, 11, 13, 6, 0]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+[1]
+[1]
+[1, 1, 2]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+83.26969390585569
+algorithm objValues:
+66.39862441851591
+time info(benchmark,algorithm, dif):
+40.8 0.0 40.8
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13]
+[13, 11, 9, 8, 7, 6, 5, 4, 1]
+N1=(Benchmark, algorithm)
+[0, 2, 12]
+[0, 12, 10, 3, 2]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1, 1, 2]
+result comparison
+--------------------
+benchmark1 objValues:
+38.517167665508566
+algorithm objValues:
+38.53056028836079
+time info(benchmark,algorithm, dif):
+48.6 0.0 48.6
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 4, 5, 7, 9, 11, 12]
+[12, 11, 9, 7, 5, 4, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 3, 6, 8, 10, 13]
+[6, 13, 6, 10, 6, 8, 3, 6, 0, 8, 0, 6, 0, 3]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+33.52546350562054
+algorithm objValues:
+33.761561375602966
+time info(benchmark,algorithm, dif):
+48.2 0.0 48.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 3, 13]
+[0, 3, 13]
+Nu
+[]
+===============================================
+[1, 1, 2]
+[1, 1, 2]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+32.410194218566936
+algorithm objValues:
+32.91352934662531
+time info(benchmark,algorithm, dif):
+49.8 0.0 49.8
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 6, 8, 9, 11, 12, 13]
+[13, 12, 11, 9, 8, 6, 5, 4, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 7, 10]
+[2, 7, 10]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+65.01494621852184
+algorithm objValues:
+65.01512195899028
+time info(benchmark,algorithm, dif):
+39.4 0.0 39.4
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13]
+[13, 12, 11, 9, 8, 7, 6, 5, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 4, 10]
+[0, 4, 10]
+Nu
+[]
+===============================================
+[1, 1, 2, 3]
+result comparison
+--------------------
+benchmark1 objValues:
+30.401390665956683
+algorithm objValues:
+30.412315236697417
+time info(benchmark,algorithm, dif):
+47.6 0.0 47.6
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[12, 11, 10, 8, 7, 6, 5, 4, 2, 1, 0, 9, 3, 13]
+N1=(Benchmark, algorithm)
+[]
+[]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1, 2]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+75.6291565424585
+algorithm objValues:
+57.21007563000682
+time info(benchmark,algorithm, dif):
+48.9 0.0 48.9
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 12, 11, 10, 6, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[5, 9, 8, 7, 2, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1, 1, 1, 2, 3]
+result comparison
+--------------------
+benchmark1 objValues:
+32.21419780896517
+algorithm objValues:
+32.28266508926501
+time info(benchmark,algorithm, dif):
+47.9 0.0 47.9
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[13, 11, 10, 8, 7, 6, 4, 3, 1, 0, 12, 9, 2, 5]
+N1=(Benchmark, algorithm)
+[]
+[]
+Nu
+[]
+===============================================
+[1]
+[1, 1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+52.02337987658848
+algorithm objValues:
+52.13004199229606
+time info(benchmark,algorithm, dif):
+48.2 0.0 48.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 4, 6, 9, 10, 11, 12]
+[12, 11, 10, 9, 6, 4, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 3, 5, 7, 8, 13]
+[5, 13, 8, 7, 3, 0]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+46.43883323924988
+algorithm objValues:
+46.132169542591
+time info(benchmark,algorithm, dif):
+48.2 0.0 48.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 6, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 5, 7]
+[5, 7, 2, 0]
+Nu
+[]
+===============================================
+[1]
+[1, 1, 2]
+[1]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+65.38801358398487
+algorithm objValues:
+51.311010087662645
+time info(benchmark,algorithm, dif):
+49.2 0.0 49.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 4, 5, 6, 7, 9, 11, 12, 13]
+[13, 12, 11, 9, 7, 6, 5, 4, 1]
+N1=(Benchmark, algorithm)
+[2, 3, 8, 10]
+[8, 10, 2, 0, 3]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+84.95484399177954
+algorithm objValues:
+84.95604139121212
+time info(benchmark,algorithm, dif):
+39.0 0.0 39.0
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 10, 12, 13]
+[13, 12, 10, 5, 4, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 6, 7, 8, 9, 11]
+[2, 9, 11, 8, 7, 6]
+Nu
+[]
+===============================================
+[1]
+[1, 1, 2, 3]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+55.01690593306185
+algorithm objValues:
+54.54028786909065
+time info(benchmark,algorithm, dif):
+49.9 0.0 49.9
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 7, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 2]
+[0, 6, 2]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1, 2]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+67.60448614979157
+algorithm objValues:
+55.6239154054178
+time info(benchmark,algorithm, dif):
+48.8 0.0 48.8
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 7, 6, 5, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 2]
+[2, 4, 0]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+32.12018034993402
+algorithm objValues:
+32.12810546160706
+time info(benchmark,algorithm, dif):
+48.4 0.0 48.4
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 8, 6, 5, 4, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 7]
+[7, 2]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1]
+[1, 1]
+[1, 1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+144.15955561630057
+algorithm objValues:
+118.57086525651287
+time info(benchmark,algorithm, dif):
+39.2 0.0 39.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 12, 11, 10, 9, 7, 5, 1]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[0, 4, 6, 8, 3, 2]
+Nu
+[]
+===============================================
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+61.65282962672788
+algorithm objValues:
+61.65827738578362
+time info(benchmark,algorithm, dif):
+47.8 0.0 47.8
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 4, 5, 8, 9, 11, 12, 13]
+[13, 12, 11, 9, 8, 5, 4, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 3, 6, 7, 10]
+[3, 10, 2, 7, 6]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+94.28400154738834
+algorithm objValues:
+78.0218207096361
+time info(benchmark,algorithm, dif):
+39.0 0.0 39.0
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 5, 6, 8, 9, 11, 12, 13]
+[13, 12, 11, 9, 8, 6, 5, 1]
+N1=(Benchmark, algorithm)
+[2, 3, 4, 7, 10]
+[2, 4, 10, 7, 3, 0]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+25.250804219778004
+algorithm objValues:
+25.30805334366231
+time info(benchmark,algorithm, dif):
+48.3 0.0 48.3
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 7, 6, 5, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 8]
+[0, 8]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+51.283430638604614
+algorithm objValues:
+50.79265900273646
+time info(benchmark,algorithm, dif):
+47.4 0.0 47.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 9, 10, 11, 12]
+[12, 11, 10, 9, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[2, 6, 7, 8, 13]
+[7, 13, 6, 2, 8, 0]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+47.480749123354315
+algorithm objValues:
+47.67534301746888
+time info(benchmark,algorithm, dif):
+49.6 0.0 49.6
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 7, 6, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 5, 8]
+[0, 8, 5]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+54.17974018856155
+algorithm objValues:
+54.30232334716169
+time info(benchmark,algorithm, dif):
+48.1 0.0 48.1
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 6, 7, 9, 10, 11, 12]
+[12, 11, 10, 9, 7, 6, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 4, 5, 8, 13]
+[13, 5, 4, 0, 8]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+78.72253453198206
+algorithm objValues:
+78.76581899431662
+time info(benchmark,algorithm, dif):
+39.8 0.0 39.8
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 4, 5, 6, 9, 10, 11, 12, 13]
+[13, 12, 11, 10, 9, 6, 5, 4, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 3, 7, 8]
+[2, 8, 7, 3]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+88.76769510992352
+algorithm objValues:
+71.00251513570733
+time info(benchmark,algorithm, dif):
+35.9 0.0 35.9
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 12, 11, 7, 6, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[1, 5, 10, 8, 4, 9, 0]
+Nu
+[]
+===============================================
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+140 240
+Number of replicates:
+100
+number of components:
+14
+-------
+CPLEX:
+-------
+avg time
+46.0143
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+9.84962067738754e-09
+avg max j:
+1.21
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time, error%)
+0.0006 0.0
+j=2:(time, error%)
+0.0004 0.0
+j=3:(time, error%)
+0.0003 0.0
+j=4:(time, error%)
+0.0003 0.0
+j=5:(time, error%)
+0.0003 0.0
+j=6:(time, error%)
+0.0003 0.0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+18 0.18
+[143, 147, 148, 154, 155, 157, 163, 175, 180, 194, 202, 207, 211, 214, 223, 227, 229, 238]
+objective violation, rate and index:
+35 0.35
+[143, 147, 148, 149, 154, 155, 157, 162, 163, 164, 175, 180, 183, 184, 187, 189, 190, 194, 197, 201, 202, 207, 208, 211, 214, 216, 223, 225, 227, 228, 229, 230, 235, 237, 238]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+53.72485673829241
+algorithm objValues:
+53.725326981489594
+time info(benchmark,algorithm, dif):
+203.6 0.0 203.6
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14]
+[14, 12, 10, 9, 7, 6, 5, 4, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[8, 11, 13]
+[8, 13, 11]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+55.58216085581014
+algorithm objValues:
+55.98331555952508
+time info(benchmark,algorithm, dif):
+201.2 0.0 201.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 8, 6, 5, 4, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 7]
+[7, 2]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+64.20207946951257
+algorithm objValues:
+65.02536459481749
+time info(benchmark,algorithm, dif):
+160.2 0.0 160.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 8, 7, 5, 3, 2, 0, 1]
+N1=(Benchmark, algorithm)
+[4, 6]
+[4, 6]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+133.6929804986555
+algorithm objValues:
+110.01019878891758
+time info(benchmark,algorithm, dif):
+149.4 0.0 149.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 10, 9, 8, 7, 6, 5, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[0, 2, 12, 13, 11, 4]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+60.42757205647568
+algorithm objValues:
+53.452163175301415
+time info(benchmark,algorithm, dif):
+203.4 0.0 203.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 14]
+[14, 12, 11, 10, 9, 8, 7, 6, 4, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 5, 13]
+[0, 13, 1, 5]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+54.605748318500915
+algorithm objValues:
+54.644798350846386
+time info(benchmark,algorithm, dif):
+202.3 0.0 202.3
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14]
+[14, 12, 11, 10, 9, 7, 6, 5, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 8, 13]
+[13, 8, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1, 1]
+[1, 1]
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+29.36523000293311
+algorithm objValues:
+29.689765338724488
+time info(benchmark,algorithm, dif):
+193.6 0.0 193.6
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 5, 6, 7, 8, 9, 10, 11, 14]
+[14, 11, 10, 9, 8, 7, 6, 5, 1, 0]
+N1=(Benchmark, algorithm)
+[3, 4, 12, 13]
+[12, 13, 4, 13, 4, 12, 3, 2]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+62.842599532341005
+algorithm objValues:
+51.4523474762277
+time info(benchmark,algorithm, dif):
+204.1 0.0 204.1
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 5, 7, 8, 9, 11, 12]
+[12, 11, 9, 8, 7, 5, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 4, 6, 10, 13, 14]
+[14, 13, 10, 6, 4, 1, 0]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+51.71551906395804
+algorithm objValues:
+51.74583021773664
+time info(benchmark,algorithm, dif):
+202.3 0.0 202.3
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 5, 7, 9, 10, 12, 13, 14]
+[14, 13, 12, 10, 9, 7, 5, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 4, 6, 8, 11]
+[8, 11, 4, 6, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1, 1, 2, 1, 1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+37.17058319767849
+algorithm objValues:
+37.1828958722663
+time info(benchmark,algorithm, dif):
+194.3 0.0 194.3
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 6, 7, 9, 10, 11, 14]
+[14, 11, 10, 9, 7, 6, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[5, 8, 12, 13]
+[8, 12, 5, 13, 1, 4]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+73.38557104138684
+algorithm objValues:
+72.80457379070765
+time info(benchmark,algorithm, dif):
+162.6 0.0 162.6
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 5, 6, 7, 9, 10, 14]
+[14, 10, 9, 7, 6, 5, 2]
+N1=(Benchmark, algorithm)
+[3, 4, 8, 11, 12, 13]
+[8, 13, 11, 4, 3, 12, 1, 0]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+57.73391957053978
+algorithm objValues:
+57.76604735781044
+time info(benchmark,algorithm, dif):
+203.7 0.0 203.7
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 7, 8, 9, 11, 13, 14]
+[14, 13, 11, 9, 8, 7, 5, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[4, 6, 10, 12]
+[6, 12, 10, 4]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+[1, 1, 2, 3]
+[1, 1, 2, 1]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+53.004658013537295
+algorithm objValues:
+40.27716635772151
+time info(benchmark,algorithm, dif):
+195.7 0.0 195.7
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 7, 8, 9, 13, 14]
+[14, 13, 9, 8, 7, 5, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[6, 10, 11, 12]
+[11, 6, 12, 10, 1]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+29.09699541046476
+algorithm objValues:
+29.108008831137496
+time info(benchmark,algorithm, dif):
+194.9 0.0 194.9
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14]
+[14, 12, 11, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 10, 13]
+[13, 10, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+30.398773322398366
+algorithm objValues:
+30.49706981792039
+time info(benchmark,algorithm, dif):
+192.4 0.0 192.4
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14]
+[14, 13, 12, 11, 9, 8, 7, 6, 5, 4, 3, 2, 0, 1]
+N1=(Benchmark, algorithm)
+[10]
+[10]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+48.363439273331764
+algorithm objValues:
+48.91312744605919
+time info(benchmark,algorithm, dif):
+199.9 0.0 199.9
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 5, 6, 8, 9, 10, 11, 13, 14]
+[14, 13, 11, 10, 9, 8, 6, 5, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 4, 7, 12]
+[7, 12, 4, 0]
+Nu
+[]
+===============================================
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+62.10495146040232
+algorithm objValues:
+62.79551849219001
+time info(benchmark,algorithm, dif):
+203.2 0.0 203.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 7, 8, 9, 12, 14]
+[14, 12, 9, 8, 7, 5, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[4, 6, 10, 11, 13]
+[13, 11, 10, 6, 4, 2]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+130.81210197139325
+algorithm objValues:
+101.574128912719
+time info(benchmark,algorithm, dif):
+170.4 0.0 170.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 13, 12, 11, 9, 7, 6, 5, 3, 0]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[1, 2, 4, 10, 8]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+36.1293352569641
+algorithm objValues:
+36.14149173354461
+time info(benchmark,algorithm, dif):
+193.8 0.0 193.8
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 7, 9, 10, 11, 13, 14]
+[14, 13, 11, 10, 9, 7, 5, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[4, 6, 8, 12]
+[8, 12, 8, 4, 6]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+65.15406907514385
+algorithm objValues:
+65.58891027011099
+time info(benchmark,algorithm, dif):
+164.1 0.0 164.1
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 7, 9, 11, 12, 13, 14]
+[14, 13, 12, 11, 9, 7, 5, 4, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[6, 8, 10]
+[8, 10, 6]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+35.20044356752395
+algorithm objValues:
+35.23637704749269
+time info(benchmark,algorithm, dif):
+194.2 0.0 194.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 13, 14]
+[14, 13, 10, 9, 8, 7, 5, 4, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[6, 11, 12]
+[11, 12, 6]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+73.7975016785484
+algorithm objValues:
+64.16390011043129
+time info(benchmark,algorithm, dif):
+205.1 0.0 205.1
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 6, 7, 8, 11, 14]
+[14, 11, 8, 7, 6, 5, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[4, 9, 10, 12, 13]
+[9, 13, 12, 10, 4, 1]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+48.94097178265051
+algorithm objValues:
+48.945732343379554
+time info(benchmark,algorithm, dif):
+202.3 0.0 202.3
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14]
+[14, 12, 11, 10, 9, 7, 6, 5, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 8, 13]
+[8, 13, 0]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+61.9300276433536
+algorithm objValues:
+62.13060646237172
+time info(benchmark,algorithm, dif):
+203.7 0.0 203.7
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 7, 8, 9, 11, 14]
+[14, 11, 9, 8, 7, 5, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[4, 6, 10, 12, 13]
+[6, 13, 12, 10, 4, 2]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+138.5291534048207
+algorithm objValues:
+110.1327388954808
+time info(benchmark,algorithm, dif):
+151.0 0.0 151.0
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 12, 11, 10, 9, 7, 5, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[1, 8, 14, 6, 4]
+Nu
+[]
+===============================================
+[1, 1, 2, 1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+64.84513663303795
+algorithm objValues:
+60.124838478542564
+time info(benchmark,algorithm, dif):
+204.8 0.0 204.8
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13]
+[13, 11, 10, 9, 8, 7, 5, 4, 3, 0]
+N1=(Benchmark, algorithm)
+[6, 12, 14]
+[14, 12, 6, 1, 2]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+150.49606692164713
+algorithm objValues:
+134.01734032386156
+time info(benchmark,algorithm, dif):
+151.1 0.0 151.1
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 9, 8, 7, 4, 3]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[0, 2, 10, 14, 12, 11, 6, 1, 5]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+72.01099234545019
+algorithm objValues:
+69.80955177516395
+time info(benchmark,algorithm, dif):
+164.2 0.0 164.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 7, 8, 9, 11, 14]
+[14, 11, 9, 8, 7, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 6, 10, 12, 13]
+[6, 12, 13, 10, 2, 0]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+53.893096592939656
+algorithm objValues:
+53.97347991620032
+time info(benchmark,algorithm, dif):
+206.5 0.0 206.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 9, 10, 13, 14]
+[14, 13, 10, 9, 7, 6, 5, 4, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 8, 11, 12]
+[8, 12, 11, 0, 1]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+87.30866070748097
+algorithm objValues:
+86.14171054124265
+time info(benchmark,algorithm, dif):
+158.3 0.0 158.3
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 6, 7, 9, 11, 12, 13, 14]
+[14, 13, 12, 11, 9, 7, 6, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 4, 5, 8, 10]
+[5, 8, 10, 4, 0, 3]
+Nu
+[]
+===============================================
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+110.64614148525965
+algorithm objValues:
+86.49776685808791
+time info(benchmark,algorithm, dif):
+162.5 0.0 162.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[13, 12, 9, 8, 7, 5, 4, 3]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[2, 11, 14, 10, 1, 0, 6]
+Nu
+[]
+===============================================
+[1, 1, 2, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+48.12895935448423
+algorithm objValues:
+36.564612224908316
+time info(benchmark,algorithm, dif):
+210.8 0.0 210.8
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14]
+[14, 12, 9, 8, 7, 6, 5, 4, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 10, 11, 13]
+[1, 11, 0, 11, 13, 10]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1]
+[1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+45.97635934531077
+algorithm objValues:
+46.33466093237693
+time info(benchmark,algorithm, dif):
+204.4 0.0 204.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14]
+[14, 12, 11, 9, 8, 7, 6, 5, 4, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 10, 13]
+[13, 10, 0, 1]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+147.7094744852779
+algorithm objValues:
+123.58323244233574
+time info(benchmark,algorithm, dif):
+154.0 0.0 154.0
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 10, 9, 8, 7, 6, 5, 3, 2]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[0, 1, 11, 13, 12, 4]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+59.287179935425925
+algorithm objValues:
+60.687152971859604
+time info(benchmark,algorithm, dif):
+165.1 0.0 165.1
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14]
+[14, 13, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 11, 12]
+[0, 11, 12]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+113.22045044426363
+algorithm objValues:
+80.69696521830201
+time info(benchmark,algorithm, dif):
+169.0 0.0 169.0
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 12, 11, 10, 9, 7, 5, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[1, 6, 13, 8]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+49.44291175763968
+algorithm objValues:
+49.4755265722807
+time info(benchmark,algorithm, dif):
+207.2 0.0 207.2
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14]
+[14, 13, 11, 10, 9, 8, 7, 5, 4, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[6, 12]
+[6, 12]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+95.34590863979312
+algorithm objValues:
+71.78850899182564
+time info(benchmark,algorithm, dif):
+165.4 0.0 165.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 13, 9, 8, 7, 6, 5, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[0, 3, 12, 11, 10, 4]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1, 1, 2, 1]
+[1, 1]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+96.16586399965901
+algorithm objValues:
+95.75415631896249
+time info(benchmark,algorithm, dif):
+152.6 0.0 152.6
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 4, 6, 9, 11, 12, 14]
+[14, 12, 11, 9, 6, 4, 2, 0]
+N1=(Benchmark, algorithm)
+[3, 5, 7, 8, 10, 13]
+[3, 5, 7, 8, 13, 10, 1]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1, 2]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+55.58193202549343
+algorithm objValues:
+56.941907904054595
+time info(benchmark,algorithm, dif):
+204.0 0.0 204.0
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 5, 6, 7, 9, 10, 11, 12, 14]
+[14, 12, 11, 10, 9, 7, 6, 5, 3, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[4, 8, 13]
+[4, 13, 8]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+58.20802650333708
+algorithm objValues:
+51.00728013558998
+time info(benchmark,algorithm, dif):
+205.1 0.0 205.1
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 14]
+[14, 11, 10, 9, 7, 6, 5, 4, 3, 1]
+N1=(Benchmark, algorithm)
+[2, 8, 12, 13]
+[2, 13, 12, 8, 0]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+72.79355091680696
+algorithm objValues:
+69.63803305026359
+time info(benchmark,algorithm, dif):
+167.5 0.0 167.5
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 7, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[1, 5]
+[1, 5, 8, 6]
+Nu
+[]
+===============================================
+[1]
+[1, 1, 2, 3, 4]
+result comparison
+--------------------
+benchmark1 objValues:
+22.021064307807563
+algorithm objValues:
+22.151566928674605
+time info(benchmark,algorithm, dif):
+196.0 0.0 196.0
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[14, 13, 11, 10, 9, 7, 6, 5, 4, 1, 0, 8, 2, 3, 12]
+N1=(Benchmark, algorithm)
+[]
+[]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+141.18515882118956
+algorithm objValues:
+118.72624498903615
+time info(benchmark,algorithm, dif):
+152.4 0.0 152.4
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[14, 13, 12, 9, 8, 7, 3, 1]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[0, 2, 4, 5, 6, 11, 10]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+71.24291216143246
+algorithm objValues:
+47.315168186111784
+time info(benchmark,algorithm, dif):
+208.6 0.0 208.6
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 4, 5, 6, 7, 8, 9, 11, 12, 14]
+[14, 12, 11, 9, 8, 7, 5, 4, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 3, 10, 13]
+[3, 13, 10, 6, 0]
+Nu
+[]
+===============================================
+[1, 1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+102.44808536469395
+algorithm objValues:
+100.64411263883606
+time info(benchmark,algorithm, dif):
+157.2 0.0 157.2
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[1, 2, 3, 4, 5, 10, 14]
+[14, 10, 5, 4, 2, 1]
+N1=(Benchmark, algorithm)
+[0, 6, 7, 8, 9, 11, 12, 13]
+[7, 9, 11, 13, 8, 6, 0, 12, 3]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+128.72498059260573
+algorithm objValues:
+111.01340290192849
+time info(benchmark,algorithm, dif):
+151.7 0.0 151.7
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[]
+[9, 7, 5, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[1, 6, 13, 14, 12, 11, 10, 8]
+Nu
+[]
+===============================================
+[1]
+[1, 1, 2]
+[1]
+[1, 1]
+result comparison
+--------------------
+benchmark1 objValues:
+30.868087242221648
+algorithm objValues:
+31.341142690790115
+time info(benchmark,algorithm, dif):
+193.9 0.0 193.9
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 8, 7, 5, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[1, 6]
+[6, 1]
+Nu
+[]
+===============================================
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+45.64808241768999
+algorithm objValues:
+38.64096580717522
+time info(benchmark,algorithm, dif):
+206.1 0.0 206.1
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14]
+[14, 13, 11, 9, 8, 7, 6, 5, 4, 3, 2, 0]
+N1=(Benchmark, algorithm)
+[10, 12]
+[10, 12, 1]
+Nu
+[]
+===============================================
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+108.05842127359843
+algorithm objValues:
+78.94627961293311
+time info(benchmark,algorithm, dif):
+157.9 0.0 157.9
+ is N0 equal, is N1 equal
+False False
+N0=(Benchmark, algorithm)
+[0, 1, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 7, 5, 3, 1, 0]
+N1=(Benchmark, algorithm)
+[2, 6, 8]
+[2, 6, 8, 4]
+Nu
+[]
+===============================================
+[1]
+[1]
+[1]
+result comparison
+--------------------
+benchmark1 objValues:
+41.21035573711572
+algorithm objValues:
+41.659599562165816
+time info(benchmark,algorithm, dif):
+206.7 0.0 206.7
+ is N0 equal, is N1 equal
+True True
+N0=(Benchmark, algorithm)
+[0, 1, 2, 4, 6, 7, 9, 10, 11, 12, 13, 14]
+[14, 13, 12, 11, 10, 9, 7, 6, 4, 2, 1, 0]
+N1=(Benchmark, algorithm)
+[3, 5, 8]
+[5, 8, 3]
+Nu
+[]
+===============================================
+[1, 1]
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+150 250
+Number of replicates:
+100
+number of components:
+15
+-------
+CPLEX:
+-------
+avg time
+186.1709
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+1.4891240490706607e-08
+avg max j:
+1.15
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time, error%)
+0.0005 0.0
+j=2:(time, error%)
+0.0004 0.0
+j=3:(time, error%)
+0.0004 0.0
+j=4:(time, error%)
+0.0004 0.0
+j=5:(time, error%)
+0.0004 0.0
+j=6:(time, error%)
+0.0004 0.0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+32 0.32
+[154, 156, 163, 164, 168, 169, 177, 183, 184, 188, 192, 193, 195, 196, 198, 202, 203, 204, 205, 209, 211, 214, 217, 223, 229, 230, 233, 234, 236, 237, 243, 244]
+objective violation, rate and index:
+51 0.51
+[151, 152, 153, 154, 156, 158, 163, 164, 165, 168, 169, 171, 177, 178, 180, 181, 183, 184, 185, 186, 187, 188, 191, 192, 193, 195, 196, 198, 202, 203, 204, 205, 209, 211, 213, 214, 216, 217, 223, 227, 229, 230, 232, 233, 234, 236, 237, 241, 243, 244, 247]

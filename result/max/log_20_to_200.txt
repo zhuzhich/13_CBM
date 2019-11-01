@@ -1,0 +1,2875 @@
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+200 300
+Number of replicates:
+100
+number of components:
+20
+-------
+Alg. 1:
+-------
+avg. time:
+0.0006
+variance of time:
+3.862286240541959e-08
+avg max j:
+1.19
+maximum time:
+0.0022694983695820126
+iterInfoMax
+{1: 87, 3: 2, 2: 9, 4: 2}
+max j:
+4
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0009 0.0031530631242724233 0.0
+heuristic all & error
+13 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+5 8
+j=2:(time avg, time max, error%)
+-----
+0.0007 0.003293338651638611 0.0
+heuristic all & error
+4 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 1
+j=3:(time avg, time max, error%)
+-----
+0.0006 0.003541101727413287 0.0
+heuristic all & error
+2 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 1
+j=4:(time avg, time max, error%)
+-----
+0.0006 0.0010968291743445047 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0006 0.0011284767018600594 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0006 0.001101961205833557 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+400 500
+Number of replicates:
+100
+number of components:
+40
+-------
+Alg. 1:
+-------
+avg. time:
+0.0019
+variance of time:
+2.194012532291675e-07
+avg max j:
+1.01
+maximum time:
+0.00578636550385303
+iterInfoMax
+{1: 99, 2: 1}
+max j:
+2
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0019 0.007691489637715598 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+j=2:(time avg, time max, error%)
+-----
+0.0018 0.003893501222991702 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=3:(time avg, time max, error%)
+-----
+0.0019 0.0035259907458069506 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0018 0.003419073423119201 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0019 0.006007042857880229 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0019 0.005629268317717262 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+600 700
+Number of replicates:
+100
+number of components:
+60
+-------
+Alg. 1:
+-------
+avg. time:
+0.004
+variance of time:
+1.6677252191783274e-06
+avg max j:
+1.0
+maximum time:
+0.011556764687518317
+iterInfoMax
+{1: 100}
+max j:
+1
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0042 0.011687916603348114 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=2:(time avg, time max, error%)
+-----
+0.0041 0.012146092970171551 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=3:(time avg, time max, error%)
+-----
+0.004 0.01032650269445945 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.004 0.01148263534378735 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0041 0.012075099867907113 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0039 0.01111369930230044 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+800 900
+Number of replicates:
+100
+number of components:
+80
+-------
+Alg. 1:
+-------
+avg. time:
+0.0067
+variance of time:
+2.4105220759350594e-07
+avg max j:
+1.0
+maximum time:
+0.008955965174035185
+iterInfoMax
+{1: 100}
+max j:
+1
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.007 0.0181605487624239 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=2:(time avg, time max, error%)
+-----
+0.007 0.02053069197176427 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=3:(time avg, time max, error%)
+-----
+0.0071 0.021790035476593417 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0071 0.018470181328929414 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0071 0.0213908774718945 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0069 0.017314618905318824 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1]
+iterInfo
+[1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+1000 1100
+Number of replicates:
+100
+number of components:
+100
+-------
+Alg. 1:
+-------
+avg. time:
+0.0149
+variance of time:
+0.0005482024728197571
+avg max j:
+1.08
+maximum time:
+0.23598905508751145
+iterInfoMax
+{1: 93, 2: 6, 3: 1}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0125 0.035672750880070936 0.0
+heuristic all & error
+7 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 6
+j=2:(time avg, time max, error%)
+-----
+0.0128 0.06228062347339858 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+j=3:(time avg, time max, error%)
+-----
+0.0151 0.25053665368167444 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0144 0.23871929583966178 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0144 0.238838473015349 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0148 0.23987599871471232 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+1200 1300
+Number of replicates:
+100
+number of components:
+120
+-------
+Alg. 1:
+-------
+avg. time:
+0.0226
+variance of time:
+0.0007817445240412866
+avg max j:
+1.11
+maximum time:
+0.2470816560381337
+iterInfoMax
+{1: 90, 2: 9, 3: 1}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0192 0.07304534463444412 0.0
+heuristic all & error
+10 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 9
+j=2:(time avg, time max, error%)
+-----
+0.02 0.07256293367448308 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+j=3:(time avg, time max, error%)
+-----
+0.0222 0.27758074895156426 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0217 0.24644613947207716 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0225 0.2527816323452541 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0219 0.2480524653281364 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 1, 1, 1, 1, 2, 3, 4]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 4, 5, 6, 7, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+1400 1500
+Number of replicates:
+100
+number of components:
+140
+-------
+Alg. 1:
+-------
+avg. time:
+11.4291
+variance of time:
+8930.051215762365
+avg max j:
+1.65
+maximum time:
+939.3292363565656
+iterInfoMax
+{2: 16, 1: 67, 4: 4, 5: 2, 6: 1, 3: 9, 7: 1}
+max j:
+7
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0345 0.07794786027068312 0.0
+heuristic all & error
+33 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+4 29
+j=2:(time avg, time max, error%)
+-----
+0.0435 0.14629796631845693 0.0
+heuristic all & error
+17 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 15
+j=3:(time avg, time max, error%)
+-----
+0.1188 0.9479811586018059 0.0
+heuristic all & error
+8 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 7
+j=4:(time avg, time max, error%)
+-----
+0.4052 7.7500771943068685 0.0
+heuristic all & error
+4 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 4
+j=5:(time avg, time max, error%)
+-----
+1.2864 45.33406246195523 0.0
+heuristic all & error
+2 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 2
+j=6:(time avg, time max, error%)
+-----
+4.3073 230.46714715786675 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 2, 3, 4, 1, 1]
+------------------
+heuristic error:
+160 1612
+obj compare(real,heuristic)
+488.67 488.72
+N0 compare(real,heuristic)
+[159, 158, 157, 156, 155, 154, 151, 150, 149, 148, 147, 145, 144, 142, 141, 140, 139, 138, 136, 135, 134, 133, 132, 131, 130, 129, 125, 124, 120, 116, 115, 114, 113, 112, 111, 110, 108, 107, 105, 104, 103, 101, 100, 99, 98, 97, 96, 95, 94, 93, 91, 89, 88, 87, 86, 85, 84, 82, 81, 80, 79, 77, 76, 75, 74, 73, 70, 66, 65, 62, 61, 60, 58, 56, 55, 52, 51, 50, 49, 47, 45, 44, 42, 41, 40, 39, 38, 37, 36, 35, 31, 29, 27, 26, 25, 24, 23, 22, 21, 19, 18, 16, 15, 14, 12, 11, 8, 7, 4, 3, 2, 1, 0, 33, 53]
+[159, 158, 157, 156, 155, 154, 151, 150, 149, 148, 147, 145, 144, 142, 141, 140, 139, 138, 136, 135, 134, 133, 132, 131, 130, 129, 125, 124, 120, 116, 115, 114, 113, 112, 111, 110, 108, 107, 105, 104, 103, 101, 100, 99, 98, 97, 96, 95, 94, 93, 91, 89, 88, 87, 86, 85, 84, 82, 81, 80, 79, 77, 76, 75, 74, 73, 70, 66, 65, 62, 61, 60, 58, 56, 55, 52, 51, 50, 49, 47, 45, 44, 42, 41, 40, 39, 38, 37, 36, 35, 31, 29, 27, 26, 25, 24, 23, 22, 21, 19, 18, 16, 15, 14, 12, 11, 8, 7, 4, 3, 2, 1, 0]
+N1 compare(real,heuristic)
+[6, 9, 10, 20, 43, 46, 57, 64, 67, 69, 78, 118, 119, 122, 126, 127, 128, 28, 30, 117, 121, 28, 92, 30, 121, 90, 30, 117, 121, 90, 92, 30, 121, 90, 28, 30, 121, 90, 28, 30, 117, 90, 28, 30, 109, 90, 28, 30, 32, 90, 28, 92, 121, 90, 28, 92, 30, 153, 28, 30, 121, 153, 28, 92, 30, 153, 90, 30, 121, 153, 90, 92, 30, 153, 90, 28, 121, 153, 90, 28, 30, 71, 28, 30, 121, 71, 90, 30, 121, 71, 90, 28, 30, 63, 123, 152, 54, 83, 146, 17, 48, 143, 59, 106, 137, 72, 102, 5, 68, 34, 13]
+[6, 9, 10, 20, 43, 46, 57, 64, 67, 69, 78, 118, 119, 122, 126, 127, 128, 68, 5, 71, 72, 137, 13, 143, 17, 146, 83, 152, 153, 90, 28, 92, 30, 32, 33, 34, 102, 106, 123, 109, 48, 53, 54, 117, 121, 59, 63]
+iterInfo
+[1, 1, 2, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 6, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 6, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5]
+------------------
+heuristic error:
+160 1688
+obj compare(real,heuristic)
+457.08 457.17
+N0 compare(real,heuristic)
+[159, 158, 156, 155, 153, 152, 149, 148, 147, 144, 143, 142, 141, 138, 137, 136, 135, 134, 132, 131, 130, 129, 128, 127, 126, 125, 124, 123, 122, 121, 119, 117, 114, 113, 112, 111, 110, 106, 105, 103, 102, 101, 100, 99, 98, 97, 96, 94, 93, 91, 89, 85, 84, 82, 78, 76, 75, 73, 71, 70, 67, 66, 65, 64, 63, 61, 60, 58, 57, 56, 55, 54, 53, 52, 50, 48, 47, 46, 45, 44, 43, 42, 40, 38, 37, 35, 34, 32, 31, 30, 29, 27, 26, 25, 24, 23, 22, 20, 19, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 4, 3, 2, 1, 0, 90, 74, 77, 150]
+[159, 158, 156, 155, 153, 152, 149, 148, 147, 144, 143, 142, 141, 138, 137, 136, 135, 134, 132, 131, 130, 129, 128, 127, 126, 125, 124, 123, 122, 121, 119, 117, 114, 113, 112, 111, 110, 106, 105, 103, 102, 101, 100, 99, 98, 97, 96, 94, 93, 91, 89, 85, 84, 82, 78, 76, 75, 73, 71, 70, 67, 66, 65, 64, 63, 61, 60, 58, 57, 56, 55, 54, 53, 52, 50, 48, 47, 46, 45, 44, 43, 42, 40, 38, 37, 35, 34, 32, 31, 30, 29, 27, 26, 25, 24, 23, 22, 20, 19, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 4, 3, 2, 1, 0, 90]
+N1 compare(real,heuristic)
+[21, 41, 49, 59, 62, 72, 81, 87, 92, 95, 107, 120, 133, 140, 145, 151, 86, 115, 86, 51, 86, 109, 17, 86, 5, 86, 68, 86, 118, 116, 108, 104, 88, 83, 80, 79, 69, 39, 36, 33, 157, 28, 154, 146, 139, 18]
+[21, 41, 49, 59, 62, 72, 81, 87, 92, 95, 107, 120, 133, 140, 145, 151, 68, 5, 69, 74, 139, 77, 79, 80, 17, 18, 146, 83, 150, 86, 88, 154, 28, 157, 33, 36, 39, 104, 108, 109, 51, 115, 116, 118]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 4, 5, 6, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+1600 1700
+Number of replicates:
+100
+number of components:
+160
+-------
+Alg. 1:
+-------
+avg. time:
+7.0743
+variance of time:
+2135.3042608169717
+avg max j:
+1.86
+maximum time:
+380.8838222116033
+iterInfoMax
+{1: 51, 3: 12, 2: 28, 4: 5, 6: 3, 5: 1}
+max j:
+6
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0522 0.12259938535407855 3.2357837073687125e-06
+heuristic all & error
+49 2
+error all 0 all 1
+0 2
+normal all 0 all 1
+6 41
+j=2:(time avg, time max, error%)
+-----
+0.0657 0.21837079098577306 0.0
+heuristic all & error
+21 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 18
+j=3:(time avg, time max, error%)
+-----
+0.1601 1.3071076070104937 0.0
+heuristic all & error
+9 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 8
+j=4:(time avg, time max, error%)
+-----
+0.589 10.528146484145054 0.0
+heuristic all & error
+4 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 3
+j=5:(time avg, time max, error%)
+-----
+1.7788 71.89962829836395 0.0
+heuristic all & error
+3 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 2
+j=6:(time avg, time max, error%)
+-----
+7.0062 380.85722232216995 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 5, 6, 1, 1, 2]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1]
+------------------
+heuristic error:
+180 1825
+obj compare(real,heuristic)
+582.28 582.33
+N0 compare(real,heuristic)
+[179, 177, 176, 175, 171, 170, 169, 168, 167, 166, 165, 164, 163, 160, 159, 158, 157, 156, 155, 154, 153, 151, 148, 147, 146, 144, 143, 142, 141, 140, 139, 138, 136, 135, 134, 132, 131, 130, 129, 127, 126, 125, 124, 123, 120, 119, 118, 116, 115, 114, 113, 112, 111, 110, 109, 108, 104, 102, 99, 98, 97, 96, 95, 94, 93, 91, 90, 88, 87, 86, 82, 81, 80, 79, 78, 76, 72, 71, 70, 69, 68, 63, 62, 60, 59, 57, 55, 54, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 38, 37, 34, 32, 30, 29, 28, 27, 25, 24, 20, 19, 18, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 1, 0, 26, 16, 2, 128, 89, 83, 33, 172, 117, 92]
+[179, 177, 176, 175, 171, 170, 169, 168, 167, 166, 165, 164, 163, 160, 159, 158, 157, 156, 155, 154, 153, 151, 148, 147, 146, 144, 143, 142, 141, 140, 139, 138, 136, 135, 134, 132, 131, 130, 129, 127, 126, 125, 124, 123, 120, 119, 118, 116, 115, 114, 113, 112, 111, 110, 109, 108, 104, 102, 99, 98, 97, 96, 95, 94, 93, 91, 90, 88, 87, 86, 82, 81, 80, 79, 78, 76, 72, 71, 70, 69, 68, 63, 62, 60, 59, 57, 55, 54, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 38, 37, 34, 32, 30, 29, 28, 27, 25, 24, 20, 19, 18, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 1, 0, 26, 16, 2, 128, 89, 83, 33]
+N1 compare(real,heuristic)
+[21, 22, 31, 35, 53, 56, 58, 64, 65, 66, 67, 74, 75, 85, 100, 103, 105, 122, 145, 149, 150, 162, 84, 40, 4, 84, 3, 40, 3, 84, 61, 121, 52, 178, 174, 173, 107, 106, 39, 101, 36, 161, 23, 77, 73, 137, 133, 152]
+[21, 22, 31, 35, 53, 56, 58, 64, 65, 66, 67, 74, 75, 85, 100, 103, 105, 122, 145, 149, 150, 162, 3, 4, 133, 137, 73, 77, 84, 23, 152, 92, 161, 36, 101, 39, 40, 106, 107, 172, 173, 174, 178, 52, 117, 121, 61]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 6, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+1800 1900
+Number of replicates:
+100
+number of components:
+180
+-------
+Alg. 1:
+-------
+avg. time:
+9.8448
+variance of time:
+2007.7821179610617
+avg max j:
+2.19
+maximum time:
+348.4533006517968
+iterInfoMax
+{1: 45, 4: 12, 2: 18, 3: 19, 5: 3, 6: 3}
+max j:
+6
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0723 0.1744004005267925 1.1810454171294945e-06
+heuristic all & error
+55 1
+error all 0 all 1
+0 1
+normal all 0 all 1
+1 53
+j=2:(time avg, time max, error%)
+-----
+0.1023 0.3960240441374481 0.0
+heuristic all & error
+37 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 36
+j=3:(time avg, time max, error%)
+-----
+0.3554 3.022020121555215 0.0
+heuristic all & error
+18 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 18
+j=4:(time avg, time max, error%)
+-----
+1.4467 18.51393018669478 0.0
+heuristic all & error
+6 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 6
+j=5:(time avg, time max, error%)
+-----
+4.6019 137.9419319190406 0.0
+heuristic all & error
+3 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 3
+j=6:(time avg, time max, error%)
+-----
+9.9399 349.05967127057374 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 7, 8]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 7, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1]
+------------------
+heuristic error:
+200 2032
+obj compare(real,heuristic)
+506.31 506.32
+N0 compare(real,heuristic)
+[199, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188, 187, 186, 185, 183, 182, 181, 178, 177, 175, 174, 173, 172, 171, 170, 168, 166, 165, 164, 163, 161, 159, 158, 155, 154, 153, 150, 148, 147, 146, 145, 144, 141, 140, 139, 138, 137, 135, 134, 133, 132, 131, 129, 128, 127, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 114, 113, 112, 111, 109, 108, 106, 105, 104, 102, 100, 99, 97, 95, 94, 93, 92, 91, 90, 89, 87, 86, 85, 84, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 69, 68, 66, 65, 64, 62, 61, 60, 59, 57, 55, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 39, 35, 34, 33, 32, 31, 30, 29, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 15, 13, 12, 11, 8, 7, 6, 5, 4, 3, 1, 0, 184, 143, 16, 67, 152]
+[199, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188, 187, 186, 185, 183, 182, 181, 178, 177, 175, 174, 173, 172, 171, 170, 168, 166, 165, 164, 163, 161, 159, 158, 155, 154, 153, 150, 148, 147, 146, 145, 144, 141, 140, 139, 138, 137, 135, 134, 133, 132, 131, 129, 128, 127, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 114, 113, 112, 111, 109, 108, 106, 105, 104, 102, 100, 99, 97, 95, 94, 93, 92, 91, 90, 89, 87, 86, 85, 84, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 69, 68, 66, 65, 64, 62, 61, 60, 59, 57, 55, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 39, 35, 34, 33, 32, 31, 30, 29, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 15, 13, 12, 11, 8, 7, 6, 5, 4, 3, 1, 0, 184, 143]
+N1 compare(real,heuristic)
+[2, 28, 36, 38, 54, 58, 71, 96, 98, 107, 115, 116, 142, 149, 151, 162, 180, 198, 176, 63, 176, 179, 169, 176, 160, 176, 88, 176, 10, 63, 10, 179, 10, 176, 10, 169, 10, 160, 10, 88, 10, 83, 136, 63, 136, 179, 136, 176, 136, 169, 136, 160, 136, 88, 136, 83, 136, 10, 70, 176, 70, 10, 70, 136, 130, 176, 130, 10, 130, 136, 157, 156, 56, 110, 14, 103, 41, 9, 167, 101, 37, 40]
+[2, 28, 36, 38, 54, 58, 71, 96, 98, 107, 115, 116, 142, 149, 151, 162, 180, 198, 130, 67, 70, 136, 9, 10, 14, 16, 83, 152, 88, 156, 157, 160, 37, 101, 167, 40, 41, 169, 103, 110, 176, 179, 56, 63]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 2, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 7, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 6, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1, 1]
+------------------
+heuristic error:
+200 2044
+obj compare(real,heuristic)
+539.64 539.72
+N0 compare(real,heuristic)
+[199, 198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 187, 185, 184, 183, 182, 181, 180, 178, 177, 175, 174, 172, 171, 170, 168, 166, 165, 162, 161, 160, 159, 158, 156, 155, 153, 151, 150, 149, 146, 144, 143, 142, 141, 139, 138, 137, 136, 134, 133, 132, 129, 128, 127, 124, 123, 122, 120, 118, 117, 116, 113, 109, 108, 106, 104, 101, 100, 99, 96, 94, 93, 92, 91, 90, 88, 87, 86, 85, 84, 82, 81, 79, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 62, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 36, 35, 34, 33, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 15, 13, 10, 9, 8, 7, 4, 3, 2, 1, 83, 188, 77, 110]
+[199, 198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 187, 185, 184, 183, 182, 181, 180, 178, 177, 175, 174, 172, 171, 170, 168, 166, 165, 162, 161, 160, 159, 158, 156, 155, 153, 151, 150, 149, 146, 144, 143, 142, 141, 139, 138, 137, 136, 134, 133, 132, 129, 128, 127, 124, 123, 122, 120, 118, 117, 116, 113, 109, 108, 106, 104, 101, 100, 99, 96, 94, 93, 92, 91, 90, 88, 87, 86, 85, 84, 82, 81, 79, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 62, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 36, 35, 34, 33, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 15, 13, 10, 9, 8, 7, 4, 3, 2, 1, 83, 188]
+N1 compare(real,heuristic)
+[0, 5, 32, 37, 61, 64, 89, 98, 102, 105, 107, 111, 112, 114, 121, 125, 126, 147, 167, 173, 186, 169, 176, 115, 119, 164, 176, 115, 119, 164, 169, 176, 115, 163, 176, 115, 119, 163, 169, 176, 119, 163, 169, 176, 115, 163, 164, 176, 115, 163, 164, 169, 176, 31, 176, 115, 63, 31, 176, 115, 119, 31, 169, 115, 119, 31, 169, 176, 119, 31, 169, 176, 115, 31, 164, 115, 119, 31, 164, 176, 119, 31, 164, 176, 115, 31, 164, 169, 115, 31, 164, 169, 176, 31, 163, 115, 119, 31, 163, 176, 119, 31, 163, 176, 115, 31, 163, 169, 119, 31, 163, 169, 115, 31, 163, 169, 176, 31, 163, 164, 115, 31, 163, 164, 176, 31, 163, 164, 169, 148, 31, 176, 115, 145, 31, 176, 115, 11, 31, 176, 115, 11, 31, 163, 176, 135, 31, 176, 115, 135, 31, 163, 176, 95, 157, 154, 179, 16, 14, 12, 103, 6, 131, 130, 97, 78, 152, 140, 80]
+[0, 5, 32, 37, 61, 64, 89, 98, 102, 105, 107, 111, 112, 114, 121, 125, 126, 147, 167, 173, 186, 130, 131, 6, 135, 11, 12, 140, 14, 77, 16, 145, 78, 80, 148, 152, 154, 157, 31, 95, 97, 163, 164, 103, 169, 110, 176, 179, 115, 119, 63]
+iterInfo
+[1, 1, 1, 2, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1, 1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 1, 1]
+iterInfo
+[1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 1, 1, 1, 1, 2]
+iterInfo
+[1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1]
+iterInfo
+[1, 1, 1, 1, 1, 2, 3, 4, 1]
+iterInfo
+[1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 1]
+iterInfo
+[1, 1, 1, 2, 1, 1]
+iterInfo
+[1, 1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+2000 2100
+Number of replicates:
+100
+number of components:
+200
+-------
+Alg. 1:
+-------
+avg. time:
+106.3016
+variance of time:
+473292.63568013854
+avg max j:
+2.65
+maximum time:
+6378.8822860235105
+iterInfoMax
+{1: 32, 3: 19, 5: 9, 7: 3, 8: 1, 2: 22, 4: 13, 6: 1}
+max j:
+8
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0913 0.17303984195496014 1.7293400392088194e-06
+heuristic all & error
+68 2
+error all 0 all 1
+0 2
+normal all 0 all 1
+2 64
+j=2:(time avg, time max, error%)
+-----
+0.1339 0.3167007994306914 0.0
+heuristic all & error
+46 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 45
+j=3:(time avg, time max, error%)
+-----
+0.5145 2.494062952348031 0.0
+heuristic all & error
+27 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 27
+j=4:(time avg, time max, error%)
+-----
+2.5586 23.786975075148803 0.0
+heuristic all & error
+14 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 14
+j=5:(time avg, time max, error%)
+-----
+9.6222 185.37735599448206 0.0
+heuristic all & error
+5 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 5
+j=6:(time avg, time max, error%)
+-----
+24.7473 1205.4893183892382 0.0
+heuristic all & error
+4 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 4

@@ -1,0 +1,2072 @@
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+100 200
+Number of replicates:
+100
+number of components:
+10
+-------
+CPLEX:
+-------
+avg time
+0.4327
+-------
+Alg. 1:
+-------
+avg. time:
+0.0002
+variance of time:
+5.759766949123862e-09
+avg max j:
+1.09
+maximum time:
+0.0006015881356553621
+iterInfoMax
+{1: 92, 2: 7, 3: 1}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0003 0.0019296438398654914 0.0
+heuristic all & error
+8 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+6 2
+j=2:(time avg, time max, error%)
+-----
+0.0002 0.0015550055411637231 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 0
+j=3:(time avg, time max, error%)
+-----
+0.0002 0.0005707959467216028 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0002 0.0005668043666737788 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0002 0.0005705108338638354 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0002 0.0005642383509290028 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+0 0.0
+[]
+objective violation, rate and index:
+0 0.0
+[]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+110 210
+Number of replicates:
+100
+number of components:
+11
+-------
+CPLEX:
+-------
+avg time
+1.0593
+-------
+Alg. 1:
+-------
+avg. time:
+0.0003
+variance of time:
+1.1092398979451031e-08
+avg max j:
+1.13
+maximum time:
+0.0008539130172096066
+iterInfoMax
+{1: 89, 2: 9, 3: 2}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0004 0.002328801844555528 0.0
+heuristic all & error
+11 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 8
+j=2:(time avg, time max, error%)
+-----
+0.0003 0.0017776786852152782 0.0
+heuristic all & error
+2 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 2
+j=3:(time avg, time max, error%)
+-----
+0.0002 0.0008345253426682575 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0003 0.0012684671163754047 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0002 0.0008265421825797148 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0002 0.0008211250382430535 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+0 0.0
+[]
+objective violation, rate and index:
+0 0.0
+[]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1, 2]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+120 220
+Number of replicates:
+100
+number of components:
+12
+-------
+CPLEX:
+-------
+avg time
+3.1446
+-------
+Alg. 1:
+-------
+avg. time:
+0.0003
+variance of time:
+1.4894721275104343e-08
+avg max j:
+1.23
+maximum time:
+0.0008339551169456172
+iterInfoMax
+{1: 81, 2: 16, 3: 2, 4: 1}
+max j:
+4
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0005 0.0019219457926169525 0.0
+heuristic all & error
+19 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 16
+j=2:(time avg, time max, error%)
+-----
+0.0003 0.002043118758365381 0.0
+heuristic all & error
+3 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 1
+j=3:(time avg, time max, error%)
+-----
+0.0003 0.002050246579869963 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 0
+j=4:(time avg, time max, error%)
+-----
+0.0003 0.0008057289437601867 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0003 0.001326059914219968 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0003 0.0008054438309272882 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+0 0.0
+[]
+objective violation, rate and index:
+0 0.0
+[]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+130 230
+Number of replicates:
+100
+number of components:
+13
+-------
+CPLEX:
+-------
+avg time
+12.4009
+-------
+Alg. 1:
+-------
+avg. time:
+0.0003
+variance of time:
+1.230076441642412e-08
+avg max j:
+1.16
+maximum time:
+0.0008915479147617589
+iterInfoMax
+{1: 89, 4: 2, 2: 8, 3: 1}
+max j:
+4
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0005 0.0044788379256033295 0.0
+heuristic all & error
+11 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+7 4
+j=2:(time avg, time max, error%)
+-----
+0.0003 0.00212323547214055 0.0
+heuristic all & error
+3 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 0
+j=3:(time avg, time max, error%)
+-----
+0.0003 0.0022446935506650334 0.0
+heuristic all & error
+2 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 0
+j=4:(time avg, time max, error%)
+-----
+0.0003 0.0008450745183381514 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0003 0.0006685896578346728 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0003 0.0006637427393343387 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+0 0.0
+[]
+objective violation, rate and index:
+0 0.0
+[]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+140 240
+Number of replicates:
+100
+number of components:
+14
+-------
+CPLEX:
+-------
+avg time
+47.6578
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+1.0408408982717634e-08
+avg max j:
+1.21
+maximum time:
+0.0008214101508201566
+iterInfoMax
+{2: 13, 1: 83, 3: 4}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0006 0.0033706042368066846 0.0
+heuristic all & error
+17 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+8 9
+j=2:(time avg, time max, error%)
+-----
+0.0004 0.0025993739491241286 0.0
+heuristic all & error
+4 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 1
+j=3:(time avg, time max, error%)
+-----
+0.0003 0.001851808029186941 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0003 0.0008003117991393083 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0003 0.0007917584134702338 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0003 0.0007837752536943299 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+18 0.18
+[143, 147, 148, 154, 155, 157, 163, 175, 180, 194, 202, 207, 211, 214, 223, 227, 229, 238]
+objective violation, rate and index:
+35 0.35
+[143, 147, 148, 149, 154, 155, 157, 162, 163, 164, 175, 180, 183, 184, 187, 189, 190, 194, 197, 201, 202, 207, 208, 211, 214, 216, 223, 225, 227, 228, 229, 230, 235, 237, 238]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3, 4]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+150 250
+Number of replicates:
+100
+number of components:
+15
+-------
+CPLEX:
+-------
+avg time
+193.8486
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+1.8584553874758536e-08
+avg max j:
+1.15
+maximum time:
+0.001023270056975889
+iterInfoMax
+{1: 88, 2: 10, 3: 1, 4: 1}
+max j:
+4
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0006 0.0023461937307729386 0.0
+heuristic all & error
+12 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+3 9
+j=2:(time avg, time max, error%)
+-----
+0.0004 0.0023524662137788255 0.0
+heuristic all & error
+2 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 0
+j=3:(time avg, time max, error%)
+-----
+0.0004 0.00245596218155697 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+1 0
+j=4:(time avg, time max, error%)
+-----
+0.0004 0.0009921927539835451 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0004 0.0009862053848337382 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0004 0.0009830691433307948 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+32 0.32
+[154, 156, 163, 164, 168, 169, 177, 183, 184, 188, 192, 193, 195, 196, 198, 202, 203, 204, 205, 209, 211, 214, 217, 223, 229, 230, 233, 234, 236, 237, 243, 244]
+objective violation, rate and index:
+51 0.51
+[151, 152, 153, 154, 156, 158, 163, 164, 165, 168, 169, 171, 177, 178, 180, 181, 183, 184, 185, 186, 187, 188, 191, 192, 193, 195, 196, 198, 202, 203, 204, 205, 209, 211, 213, 214, 216, 217, 223, 227, 229, 230, 232, 233, 234, 236, 237, 241, 243, 244, 247]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2, 3]
+iterInfo
+[1, 1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1, 1, 2]
+iterInfo
+[1]
+iterInfo
+[1]
+iterInfo
+[1]
+++++++++++++++
+overall stats
+++++++++++++++
+From To
+160 260
+Number of replicates:
+100
+number of components:
+16
+-------
+CPLEX:
+-------
+avg time
+855.6319
+-------
+Alg. 1:
+-------
+avg. time:
+0.0004
+variance of time:
+1.2956136926442781e-08
+avg max j:
+1.11
+maximum time:
+0.0010580538219073787
+iterInfoMax
+{1: 90, 2: 9, 3: 1}
+max j:
+3
+-------
+Alg. 2:
+-------
+average time:
+j=1:(time avg, time max, error%)
+-----
+0.0006 0.0024836181255523115 0.0
+heuristic all & error
+10 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+2 8
+j=2:(time avg, time max, error%)
+-----
+0.0004 0.0027265342796454206 0.0
+heuristic all & error
+1 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 1
+j=3:(time avg, time max, error%)
+-----
+0.0004 0.001030397877912037 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=4:(time avg, time max, error%)
+-----
+0.0004 0.0010326787742087618 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=5:(time avg, time max, error%)
+-----
+0.0004 0.001036100133205764 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+j=6:(time avg, time max, error%)
+-----
+0.0004 0.0010446535306982696 0.0
+heuristic all & error
+0 0
+error all 0 all 1
+0 0
+normal all 0 all 1
+0 0
+-----------
+Other info:
+-----------
+corollary violation, rate and index:
+50 0.5
+[161, 162, 163, 164, 166, 170, 172, 173, 174, 177, 179, 180, 181, 182, 183, 185, 186, 187, 188, 189, 190, 193, 196, 200, 201, 205, 207, 210, 215, 218, 220, 221, 222, 224, 226, 228, 230, 231, 235, 236, 237, 238, 239, 240, 243, 247, 248, 250, 252, 254]
+objective violation, rate and index:
+78 0.78
+[161, 162, 163, 164, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 195, 196, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 215, 216, 217, 218, 220, 221, 222, 223, 224, 226, 227, 228, 230, 231, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 247, 248, 250, 251, 252, 253, 254, 255]
